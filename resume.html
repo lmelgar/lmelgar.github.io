@@ -2,36 +2,43 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link media="screen" href="css/style.css" rel="stylesheet" />
+    <link media="print" href="css/print.css" rel="stylesheet" />
     <title>Luis Melgar: A visual journalist in the making</title>
   </head>
 
   <body>
+    <div id="container">
     <header>
       <h1 id="top">Luis Melgar</h1>
       <h2>A visual journalist in the making</h2>
     </header>
-
+    <div id="head">
     <nav>
       <ul>
         <li><a href="#education">Education</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Multimedia Projects</a></li>
         <li><a href="#contact">Contact me</a></li>
+        <li><a href="#top">Top</a></li>
+        <li><a href="javascript:window.print();">Print Me</a></li>
       </ul>
     </nav>
+  </div>
 
     <main>
       <section>
         <h3>About Me</h3>
-        <p>I'm a Spanish journalist pursuing a M.A. in (Visual) Journalism at the University of Miami's School of Communication. My interests are data visualization, visual storytelling, videojournalism, interactivity, non fiction, and good journalism.</p>
+        <img src="img/luis-melgar.png" alt="Luis Melgar"/>
+        <p>I'm a Spanish journalist pursuing a <abbr title="Master of Arts">M.A</abbr>. in (Visual) Journalism at the University of Miami's School of Communication. My interests are data visualization, visual storytelling, interactivity, non fiction, and good journalism.</p>
 
-    <p>I lived in Uruguay for almost 6 years, where I had the opportunity to travel around South America and being involved in some multimedia projects (some of them even awarded!).</p>
+        <p>I lived in Uruguay for almost 6 years, where I had the opportunity to travel around South America and being involved in some multimedia projects (some of them even awarded!)</p>
       </section>
 
       <section>
         <h3 id="education">Education</h3>
         <article>
-          <h4>School of Communication, University of Miami (U.S.)</h4>
+          <h4>School of Communication, University of Miami (<abbr title="United States of America">U.S.</abbr>)</h4>
           <p>Master of Arts in Journalism.</p>
           <p>Concentration in visual journalism.</p>
           <p>Expected graduation: <time datetime="2015-12-31">2015.</time></p>
@@ -44,71 +51,76 @@
         </article>
         <article>
           <h4>Independent Coursework</h4>
-          <p>Videojournalism workshop, by professor Bill Gentile (American University), on visual storytelling. <date datime="2013-12-01">2013.</date></p>
-          <p>Multimedia workshop at School of Journalism of Columbia University, on videoweb. <date datime="2010-08-01">2010.</date></p>
+          <p>Videojournalism workshop, by professor Bill Gentile (American University), on visual storytelling. <time datetime="2013-12-01">2013.</time></p>
+          <p>Multimedia workshop at School of Journalism of Columbia University, on videoweb. <time datetime="2010-08-01">2010.</time></p>
         </article>
       </section>
 
-    <section>
-      <h3 id="experience">Experience</h3>
-      <article>
-        <h4>Media College, Universidad de Montevideo</h4>
-        <p><em>Writing lecturer</em></p>
-        <p><date datetime="2009-02-01">2009</date>-<date datetime="2014-08-01">2014.</date> Uruguay.</p>
+      <section>
+        <h3 id="experience">Experience</h3>
+        <article  class="experience">
+          <h4>Media College, Universidad de Montevideo</h4>
+          <p><em>Writing lecturer</em></p>
+          <p><time datetime="2009-02-01">2009</time>-<time datetime="2014-08-01">2014.</time> Uruguay.</p>
         <p>As a journalism professor in the Universidad de Montevideo, I redesigned the college's journalism final capstone and turned it into a multimedia project. I planned and organized a series of workshops to give students multimedia tools, brought in new teachers and journalists, and directed and edited the first multimedia project done by students in Uruguay: <a href="http://www.4paredes.org">4 paredes</a>, about Uruguay's housing problems. The last year, a new project was launched: <a href="http://www.madeinoriente.org">Made in Oriente</a>, about the Asian Pacific immigration and cultural heritage in Uruguay.</p>
      </article>
      <article>
        <h4>Freelance journalist</h4>
        <p><em>Editor, videographer and photographer</em>
-       <p><date datime="2010-01=01">2010</date>-<date datime="2014-01-01">2014.</date> Uruguay. </p>
-       <p>Freelance from Uruguay for Vocento Group (Spanish media company), <a href="https://vimeo.com/63197056">Storyhunter</a> (chosen ‘Storyhunter of the month of March 2013’), <em>El Cuaderno</em> (cultural supplement from the publishing house TREA), <em>El Observador</em> (Uruguayan newspaper).</p>
+       <p><time datetime="2010-01-01">2010</time>-<time datetime="2014-01-01">2014.</time> Uruguay. </p>
+       <p>Freelance from Uruguay for Vocento Group (Spanish media company), <a href="https://vimeo.com/63197056">Storyhunter</a> (chosen ‘Storyhunter of the month of March 2013’), "El Cuaderno" (cultural supplement from the publishing house TREA), "El Observador" (Uruguayan newspaper).</p>
      </article>
      <article>
        <h4>Ikusi</h4>
        <p><em>Storytelling advisor</em></p>
-       <p><date datetime="2012-01-01">2012</date>-present. Uruguay.</p>
+       <p><time datetime="2012-01-01">2012</time>-present. Uruguay.</p>
        <p>Uruguayan non-profit <a href="http://www.ikusi.org">production company</a> that specializes in providing multimedia content services to NGO. In 2013, Ikusi was recognized with the Prize Nova as the most innovative project in Social Development in Uruguay.</p>
      </article>
      <article>
        <h4>Media College, Universidad de Navarra</h4>
        <p><em>Web editor</em></p>
-       <p><date datetime="2006-01-01">2006</date>-<date datetime="2009-01-01">2009.</date> Spain.</p>
+       <p><time datetime="2006-01-01">2006</time>-<time datetime="2009-01-01">2009.</time> Spain.</p>
        <p>Editor of the web page of the College of Media. Coordinator of the press department of the college.</p>
       </article>
       <article>
         <h4>El Comercio</h4>
         <p><em>Reporter</em></p>
-        <p><date datetime="2005-01-01">2005</date>-<date datetime="2006-01-01">2006.</date> Spain.</p>
-        <p>Reporter in the Metro section.</p>
+        <p><time datetime="2005-01-01">2005</time>-<time datetime="2006-01-01">2006.</time> Spain.</p>
+        <p>Metro reporter.</p>
      </article>
   </section>
 
   <section>
-     <h3 id="projects">Multimedia projects</h3>
+     <h3 id="projects">Multimedia Projects</h3>
      <article>
        <h4>Made in Oriente</h4>
-       <p><date datetime="2014-01-01">2014.</date> Uruguay</p>
-       <p><em>Editor and coach</em>. <a href="http://www.madeinoriente.org">Multimedia Project</a> of the Universidad de Montevideo, about the Asian Pacific immigration and cultural heritage in Uruguay.</p>
+       <p><em>Editor and coach</em></p>
+       <p><time datetime="2014-01-01">2014.</time> Uruguay.</p>
+       <p><a href="http://www.madeinoriente.org">Multimedia Project</a> of the Universidad de Montevideo, about the Asian Pacific immigration and cultural heritage in Uruguay.</p>
      </article>
      <article>
        <h4>Living Galapagos</h4>
-       <p><date datetime="2013-01-01">2013.</date> Ecuador.</p>
-       <p><em>Coach</em>. <a href="http://www.livinggalapagos.org">Multimedia Project</a> of the University of North Carolina (Chapel Hill). 2013 edition. Honoree with the <a href="http://www.webbyawards.com/winners/2014/online-film-video/general-film-categories/travel-adventure/living-galapagos">People's Voice Webby Award</a> in the Travel &amp; Adventure Category.</p>
+       <p><em>Coach</em></p>
+       <p><time datetime="2013-01-01">2013.</time> Ecuador.</p>
+       <p><a href="http://www.livinggalapagos.org">Multimedia Project</a> of the University of North Carolina (Chapel Hill). 2013 edition. Honoree with the <a href="http://www.webbyawards.com/winners/2014/online-film-video/general-film-categories/travel-adventure/living-galapagos">People's Voice Webby Award</a> in the Travel &amp; Adventure Category.</p>
      </article>
      <article>
        <h4>The Route of the Whale</h4>
-       <p><date datetime="2013-01-01">2013.</date> Uruguay.</p>
-       <p><em>Co-instructor</em>. <a href="http://www.routeofthewhale.org">Multimedia Project</a> collaborating with the University Of Oregon. Honoree with the 2013 Mark of Excellence Awards from Region 10 in the Online In-Depth Reporting Category.</p>
+       <p><em>Co-instructor</em></p>
+       <p><time datetime="2013-01-01">2013.</time> Uruguay.</p>
+       <p><a href="http://www.routeofthewhale.org">Multimedia Project</a> collaborating with the University Of Oregon. Honoree with the 2013 Mark of Excellence Awards from Region 10 in the Online In-Depth Reporting Category.</p>
      </article>
      <article>
        <h4>4 paredes</h4>
-       <p><date datetime="2012-01-01">2012.</date> Uruguay.</p>
-       <p><em>Editor and coach</em>. <a href="http://www.4paredes.org">Multimedia Project</a> of the Universidad de Montevideo, about Uruguay's housing problems.</p>
+       <p><em>Editor and coach</em></p>
+       <p><time datetime="2012-01-01">2012.</time> Uruguay.</p>
+       <p><a href="http://www.4paredes.org">Multimedia Project</a> of the Universidad de Montevideo, about Uruguay's housing problems.</p>
      </article>
      <article>
        <h4>Crónicas de Valparaíso</h4>
-       <p><date datetime="2011-01-01">2011.</date> Chile.</p>
-       <p><em>Editor</em>. <a href="http://www.cronicasdevalpo.org"> Multimedia Project</a> collaborating with the University of the Andes.</p>
+       <p><em>Editor</em></p>
+       <p><time datetime="2011-01-01">2011.</time> Chile.</p>
+       <p><a href="http://www.cronicasdevalpo.org"> Multimedia Project</a> collaborating with the University of the Andes.</p>
      </article>
    </section>
 
@@ -138,12 +150,7 @@ while(x=eval(x));
      </ul>
   </section>
   </main>
-
-  <footer>
-    <nav>
-      <p><a href="#top">Top</a></p>
-    </nav>
-  </footer>
+</div>
   </body>
 
 </html>

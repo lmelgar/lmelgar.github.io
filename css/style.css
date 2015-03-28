@@ -1,0 +1,141 @@
+/* resume stylesheet */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Oswald:700);
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(80,80,80); /* grey */
+  /*background: rgb(204,252,227); /* green */
+}
+
+#container {
+  width: 780px;
+  margin: 0 auto;
+  background: rgb(255,255,255); /*white*/
+  padding: 10px 20px;
+}
+
+#container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#head {
+  position: fixed; top: 154px; right: 245px;
+  width: 170px;
+}
+
+main {
+  width: 570px;
+  /*margin-left: 20px;*/
+}
+
+main ul {
+  position: relative; left: -40px;
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+article {
+  margin-bottom: 25px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Oswald";
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+h1, h3 {
+  color: rgb(128,224,173); /* green */
+}
+
+
+h3 {
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+img {
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+
+p {
+  line-height: 1.7;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: rgb(51, 153, 255); /*blue*/
+}
+
+a:visited {
+  color: rgb(64, 64, 64); /*black*/
+}
+
+a:hover {
+  color: rgb(128,224,173); /*green*/
+}
+
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav li {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(128,224,173); /*green*/
+}
+
+nav a {
+  color: rgb(255,255,255); /*white*/
+}
+
+nav a:visited {
+  color: rgb(255,255,255); /*white*/
+}
+
+nav a:hover {
+  color: rgb(64, 64, 64); /*black*/
+}
+
+
+em {
+  font-style: italic;
+}
+
+abbr {
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: rgb(64,64,64);
+}

@@ -1,0 +1,86 @@
+* {
+  color: black;
+  background: transparent;
+  font-size: 12pt;
+  font-family: "Georgia", serif;
+}
+
+@page {
+  margin-right: 1in;
+  margin-left: 1in;
+  margin-top: 0.5in;
+  margin-bottom: 0.5in;
+}
+
+nav {
+  display: none;
+}
+
+section {
+  margin-top: 0pt;
+  margin-bottom: 25pt;
+}
+
+article {
+  margin-top: 0pt;
+  margin-bottom: 15pt;
+}
+
+h1 {
+  font-size: 28pt;
+  margin-top: 0pt;
+  margin-bottom: 5pt;
+}
+
+h2 {
+  font-size: 22pt;
+  font-weight: normal;
+  margin-top: 0pt;
+  margin-bottom: 25pt;
+}
+
+h3 {
+  font-size: 15pt;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 0pt;
+  margin-bottom: 5pt;
+}
+
+h4 {
+  font-size: 13pt;
+  font-weight: bold;
+  margin-top: 0pt;
+  margin-bottom: 5pt;
+}
+
+p {
+  line-height: 16pt;
+  margin-top: 0pt;
+  margin-bottom: 5pt;
+}
+
+img {
+   display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul
+{
+  list-style-type: none;
+  position: relative; left: -30pt;
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+  display: inline;
+}
+
+a[href^="http://"]:after,
+a[href^="https://"]:after,
+a[href^="mailto:"]:after {
+  content: " [" attr(href) "]";
+}
