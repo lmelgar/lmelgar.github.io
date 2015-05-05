@@ -1,0 +1,152 @@
+/* resume stylesheet */
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:100,400,700,900); /*Algreya sans. Google font*/
+
+body {
+  font-family: "Algreya Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: rgb(80,80,80); /* grey */
+}
+
+#container {
+  width: 81.25%;
+  max-width: 960px;
+  margin: 0 auto;
+  background: rgb(255,255,255); /*white*/
+  padding: 20px 0px;
+}
+
+#container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#head {
+  position: fixed; top: 21%; right: 25%;
+  width: 14%;
+  min-width: 130px;
+}
+
+main {
+  width: 59.375%;
+  min-width: 370px;
+}
+
+main ul {
+  position: relative; left: -7.166666666667%;
+}
+
+section {
+  margin-bottom: 35px;
+  min-width: 300px;
+}
+
+article {
+  margin-bottom: 25px;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Algreya Sans", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+h1, h3 {
+  color: rgb(141, 186, 203); /* blue */
+}
+
+
+h3 {
+  text-transform: uppercase;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+h4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#pic {
+  width: 50.877192982456%;
+  margin-left: 2.083333333333%;
+  margin-bottom: 2px;
+  float: right;
+}
+
+img {
+  width: 100%;
+  float: right;
+}
+
+p {
+  line-height: 1.7;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+a {
+    color: rgb(141, 186, 203); /*blue*/
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(141, 186, 203); /*blue*/
+}
+
+a:hover {
+    color: rgb(30,31,29); /*dark grey*/
+    text-decoration: line-through;
+}
+
+li {
+  display: inline;
+  margin-right: 1.041666666667%;
+}
+
+nav li {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 2%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgb(141, 186, 203); /*blue*/
+  border: 2px solid rgb(141, 186, 203);
+  border-radius: 10px;
+}
+
+nav a {
+  color: rgb(30,31,29); /*white*/
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: rgb(30,31,29); /*white*/
+}
+
+nav a:hover {
+  color: rgb(30,31,29); /*black*/
+  text-decoration: line-through;
+}
+
+
+em {
+  font-style: italic;
+}
+
+abbr {
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: rgb(64,64,64);
+}
