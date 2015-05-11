@@ -52,7 +52,6 @@ article {
 
 h1, h2, h3, h4 {
   font-family: "Algreya Sans", sans-serif;
-  font-weight: 700;
 }
 
 h2 {
@@ -62,6 +61,7 @@ h2 {
 
 h1, h3 {
   color: rgb(141, 186, 203); /* blue */
+  font-weight: 100;
 }
 
 

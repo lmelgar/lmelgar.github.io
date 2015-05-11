@@ -81,7 +81,6 @@ body {
 }
 
 #index a:hover {
-    text-decoration: line-through;
 }
 
 #index:after {
@@ -232,11 +231,9 @@ a:visited {
 
 a:hover {
     color: rgb(30,31,29); /*dark grey*/
-    text-decoration: line-through;
 }
 
 .actual a {
-  text-decoration: line-through;
   color: rgb(30,31,29); /*dark grey*/
 }
 

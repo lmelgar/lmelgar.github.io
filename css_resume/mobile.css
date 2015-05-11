@@ -60,8 +60,11 @@
   }
 
   h1 {
-    margin-top: 0px;
-    margin-bottom: 10px;
+    color: rgb(141, 186, 203); /*blue*/
+    font-size: 30px;
+    display: inline-block;
+    margin: 0;
+
   }
 
   h2 {
@@ -72,6 +75,7 @@
   h1, h3 {
     width: 310px;
     color: rgb(141, 186, 203); /* blue */
+    font-weight: 100;
   }
 
 
@@ -110,49 +114,52 @@
     float: none;
   }
 
-  a, a:visited, a:hover {
-      color: rgb(141, 186, 203);
+  a {
+      color: rgb(141, 186, 203); /*blue*/
       text-decoration: none;
   }
 
-  a:hover {
-      text-decoration: line-through;
+  a:visited {
+      color: rgb(141, 186, 203); /*blue*/
   }
 
-  li {
-    display: block;
-    margin: 0;
-    margin-bottom: 5px;
+  a:hover {
+      color: rgb(30,31,29); /*dark grey*/
   }
+
+  .actual a {
+    color: rgb(30,31,29); /*dark grey*/
+  }
+
 
   nav {
-    display: none;
+    width: 100%;
+    position: static;
+    float: left;
+    right: 0;
+    top: 0;
   }
 
-  nav li {
-    display: none;
-    margin-bottom: 5px;
-    padding-left: 1.5625%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    background: rgb(141, 186, 203); /*blue*/
-    border: 2px solid rgb(141, 186, 203);
-    border-radius: 10px;
+
+  nav ul {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 10px;
   }
 
-  nav a {
-    color: rgb(255,255,255); /*white*/
-    text-decoration: none;
+
+  li {
+    font-size: 18px;
+    display: inline;
+    decoration: none;
+    padding-left: 0.25em;
+
   }
 
-  nav a:visited {
-    color: rgb(255,255,255); /*white*/
+  li a {
+    text-transform: uppercase;
+    font-weight: 100;
   }
-
-  nav a:hover {
-    color: rgb(64, 64, 64); /*black*/
-  }
-
 
   em {
     font-style: italic;
