@@ -128,11 +128,9 @@ a:visited {
 
 a:hover {
     color: rgb(30,31,29); /*dark grey*/
-    text-decoration: line-through;
 }
 
 .actual a {
-  text-decoration: line-through;
   color: rgb(30,31,29); /*dark grey*/
 }
 
@@ -144,6 +142,15 @@ a:hover {
 .post main {
   width: 100%;
   position: relative; top: 0.625em;
+}
+
+.post main {
+  width: 100%;
+  position: relative; top: 0.625em;
+}
+
+.post section article {
+  width: 100%;
 }
 
 /*intro to post*/

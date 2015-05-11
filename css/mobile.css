@@ -168,6 +168,10 @@ li a {
   position: relative; top: 0.625em;
 }
 
+.post section article {
+  width: 100%;
+}
+
 .post h2 {
   color: rgb(141, 186, 203); /*blue*/
   font-weight: 700;
