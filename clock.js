@@ -22,4 +22,13 @@ function main() {
     console.log(newHref);
   });
 
+  var elementScroll = $('#scroll');
+
+  $(window).on('scroll', function() {
+    var st = $(this).scrollTop();
+    elementScroll.css({
+        'opacity' : 1 - st/500
+    });
+});
+
 };
