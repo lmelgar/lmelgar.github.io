@@ -48,7 +48,7 @@ header {
 }
 
 #scroll h4 {
-  margin-top: 90px;
+  margin-top: 80px;
   font-weight: 500 !important;
   font-size: 17 !important;
   color: black;
@@ -230,7 +230,11 @@ a:hover#lnkMail {
 
   }
 
-  #exampleBlock a, a:active, a:hover {
+  #exampleBlock a, a:active {
+    font-size: 15px;
+  }
+
+  #exampleBlock a:hover {
     font-size: 15px;
   }
 
