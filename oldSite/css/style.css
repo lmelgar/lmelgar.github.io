@@ -1,0 +1,323 @@
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:100,400,700,900); /*Algreya sans. Google font*/
+
+
+body {
+  font-family: "Algreya Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  color: rgb(30,31,29); /* dark grey */
+  margin: 0px;
+  padding: 0px;
+}
+
+/*landing page css code*/
+
+#index {
+  width: 90%;
+  max-width: 960px;
+  overflow-x: hidden;
+  padding: 0 0;
+  margin: 0 auto;
+  position: relative; top: 12em;
+}
+
+#index header {
+  witdh: 100%;
+  margin: 0 auto;
+}
+
+#index h1 {
+  font-weight: 900;
+  font-size: 500%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+#index h2 {
+  font-weight: 100;
+  font-size: 218.75%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 0.5em;
+  padding: 0;
+
+}
+
+#index nav {
+   width: 100%;
+   position: relative; left: 23%;
+   margin-top: 1em;
+}
+
+#index:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#index #icons {
+  display: none;
+}
+
+/*general css code*/
+
+.container {
+  width: 90%;
+  max-width: 960px;
+  min-width: 370px;
+  padding: 0 0;
+  margin: 0 auto;
+}
+
+.container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 4em;
+  position: relative;
+}
+
+h1 {
+  color: rgb(141, 186, 203); /*blue*/
+  font-size: 250%; /*40px/16px*/
+  font-weight: 100;
+  display: inline-block;
+  margin: 0;
+
+}
+
+nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+
+li {
+  display: inline-block;
+  padding-left: 2em;
+
+}
+
+li a {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+a {
+    color: rgb(141, 186, 203); /*blue*/
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(141, 186, 203); /*blue*/
+}
+
+a:hover {
+    color: rgb(30,31,29); /*dark grey*/
+}
+
+.actual a {
+  color: rgb(30,31,29); /*dark grey*/
+}
+
+.post span a, .post span a:hover {
+  color: rgb(30,31,29); /*dark grey*/
+}
+
+
+.post main {
+  width: 100%;
+  position: relative; top: 0.625em;
+}
+
+.post section article {
+  width: 100%;
+}
+
+/*intro to post*/
+
+.pics {
+    position: relative;
+    margin-right: 2.083333333333%;
+    margin-bottom: 2.083333333333%;
+    float: left;
+}
+
+.pics:nth-child(3n) {
+    margin-right: 0;
+}
+
+.pics img {
+  width: 100%;
+  height: 100%;
+}
+
+.pics p {
+  font-size: 125%;
+  font-weight: 400;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(141, 186, 203); /*blue*/
+  margin: 0;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.pics p span {
+  display: block;
+  position: relative;
+  top: 42%;
+}
+
+.pics:hover p {
+  background: rgba(0,0,0,0.5);
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.75s, opacity 0.75s;
+}
+
+.pics a:hover {
+  color: rgb(141, 186, 203); /*blue*/
+  text-decoration: none;
+
+}
+
+/*posts code*/
+
+.post h2 {
+  color: rgb(141, 186, 203); /*blue*/
+  font-weight: 700;
+  font-size: 250%; /*40px/16px*/
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0.625em;
+}
+
+p {
+  width: 33.229166666667%;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 0.625em; /*10px*/
+  margin-left: 0;
+  margin-right: 0;
+}
+
+p .dl {
+  width: 62.5%;
+  float: right;
+  text-transform: uppercase;
+  color: rgb(141, 186, 203); /*blue*/
+  text-align: right;
+}
+
+
+#p1, #p2 {
+  width: 45%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 2em;
+}
+
+
+img {
+  width: 62.5%;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(30,31,29); /*dark grey*/
+  margin-left: 0;
+  margin-bottom: 1.250em;
+}
+
+
+#me {
+  width: 26.041666666667%;
+  border-style: none;
+  border-width: 0;
+  margin-left: 0;
+}
+
+iframe {
+  width: 62.5%;
+  float: right;
+  margin-left: 4.166666666667%; /* 40px/960px */
+  margin-bottom: 2.083333333333%; /* 20px/960px */
+}
+
+
+.vid {
+  display:none;
+}
+
+/* About css code*/
+
+#about {
+  width: 73.958333333333%;
+}
+
+#icons {
+  float: right;
+  position: relative; right: 4.6875%; top: 0%;
+}
+
+#icons ul li {
+  padding-left: 1em;
+}
+
+#icons ul li:first-child {
+  padding-left: 0em;
+}
+
+.fa {
+  color: rgb(141, 186, 203); /*blue*/
+}
+
+
+.post span {
+  padding: 5px;
+  background: rgb(141, 186, 203); /*blue*/
+  border: 2px solid rgb(141, 186, 203);
+  border-radius: 10px;
+
+}
+
+@media (max-width: 962px) {
+
+#p1, #p2 {
+    width: 100%;
+    float: none;
+  }
+
+}
+
+
+@media (max-width: 838px) {
+
+  nav {
+    position: relative;
+    right: 30px;
+    top: 0;
+  }
+
+}

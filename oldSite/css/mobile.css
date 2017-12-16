@@ -1,0 +1,330 @@
+@media (max-width: 320px) {
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(30,31,29); /* dark grey */
+  margin: 0px;
+  padding: 0px;
+}
+
+/*landing page css code*/
+
+#index {
+  width: 300px;
+  max-width: 300px;
+  overflow-x: hidden;
+  padding: 25px 10px;
+  margin: 0 0;
+  position: static;
+
+}
+
+#index header {
+  witdh: 100%;
+  margin: 0 0;
+}
+
+#index h1 {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+#index h2 {
+  font-weight: 100;
+  font-size: 25px;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 20px;
+  padding: 0;
+
+}
+
+#index nav {
+   width: 170px;
+   position: static;
+   float: left;
+   margin-top: 15px;
+   margin-bottom: 0;
+}
+
+#index nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+
+#index nav li {
+  font-size: 18px;
+  color: rgb(30,31,29);
+  display: block;
+  decoration: none;
+  padding: 7px;
+  margin-bottom: 10px;
+  background: rgb(141, 186, 203); /*blue*/
+  border: 2px solid rgb(141, 186, 203);
+  border-radius: 10px;
+
+}
+
+
+#index a, a:visited, a:hover {
+    color: rgb(30,31,29);
+    text-decoration: none;
+}
+
+#index a:hover {
+}
+
+#index:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#index #icons {
+  display: inline;
+  position: relative; left: -39px;
+  float: left;
+  margin-top: 10px;
+
+}
+
+#index #icons ul li {
+  padding-left: 0em;
+}
+
+/*pages css code*/
+
+.container {
+  width: 310px;
+  max-width: 310px;
+  padding: 0 0;
+  margin: 0 auto;
+}
+
+.container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 4em;
+  position: relative;
+}
+
+h1 {
+  color: rgb(141, 186, 203); /*blue*/
+  font-size: 30px;
+  font-weight: 400;
+  display: inline-block;
+  margin: 0;
+
+}
+
+nav {
+  width: 100%;
+  position: static;
+  float: left;
+  right: 0;
+  top: 0;
+}
+
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 10px;
+}
+
+
+li {
+  font-size: 18px;
+  display: inline;
+  decoration: none;
+  padding-left: 0.25em;
+
+}
+
+li a {
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+
+.post main {
+  width: 100%;
+  position: relative; top: 0.625em;
+}
+
+.post section article {
+  width: 100%;
+}
+
+.post h2 {
+  color: rgb(141, 186, 203); /*blue*/
+  font-weight: 700;
+  font-size: 35px; /*40px/16px*/
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0.625em;
+}
+
+p {
+  width: 100%;
+  line-height: 1.7;
+  margin-top: 0;
+  margin-bottom: 0.625em; /*10px*/
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+#p1, #p2 {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 2em;
+}
+
+
+img {
+  width: 100%;
+  float: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(30,31,29); /*dark grey*/
+  margin-left: 0;
+  margin-bottom: 1.250em;
+}
+
+#me {
+  width: 100%;
+  border-style: none;
+  border-width: 0;
+  margin-left: 0;
+}
+
+iframe {
+  display: none;
+}
+
+a {
+    color: rgb(141, 186, 203); /*blue*/
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(141, 186, 203); /*blue*/
+}
+
+a:hover {
+    color: rgb(30,31,29); /*dark grey*/
+}
+
+.actual a {
+  color: rgb(30,31,29); /*dark grey*/
+}
+
+.dl {
+  text-transform: uppercase;
+  color: rgb(141, 186, 203); /*blue*/
+  position: static;
+}
+
+.vid {
+  display:inline;
+}
+
+/* About css code*/
+
+#about {
+  width: 100%;
+}
+
+.post #icons {
+  display: none;
+}
+
+
+.fa {
+  color: rgb(141, 186, 203); /*blue*/
+}
+
+/*intro to post*/
+
+.pics {
+    position: relative;
+    margin-right: 2.083333333333%;
+    margin-bottom: 2.083333333333%;
+    float: left;
+}
+
+.pics:nth-child(3n) {
+    margin-right: 0;
+}
+
+.pics img {
+  width: 100%;
+  height: 210px;
+  float: none;
+}
+
+.pics p {
+  font-size: 125%;
+  font-weight: 400;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(141, 186, 203); /*blue*/
+  margin: 0;
+  width: 100%;
+  height: 210px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  visibility: visible;
+}
+
+.pics p span {
+  display: block;
+  position: relative;
+  top: 42%;
+}
+
+.pics:hover p {
+  background: rgba(0,0,0,0.5);
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.75s, opacity 0.75s;
+}
+
+.pics a:hover {
+  color: rgb(141, 186, 203); /*blue*/
+  text-decoration: none;
+
+}
+
+.post span {
+  display: none;
+  padding: 7px;
+  margin-top: 10px;
+  margin-bottom: 3px;
+  background: rgb(141, 186, 203); /*blue*/
+  border: 2px solid rgb(141, 186, 203);
+  border-radius: 10px;
+
+}
+
+}
