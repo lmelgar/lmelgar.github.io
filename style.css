@@ -48,7 +48,7 @@ header {
 }
 
 #scroll h4 {
-  margin-top: 170px;
+  margin-top: 140px;
   font-weight: 500 !important;
   font-size: 17 !important;
   color: black;
@@ -93,7 +93,7 @@ section#portfolio, section#out {
 }
 
 #exampleBlock a, a:active {
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
   text-underline-position: under;
 }
@@ -228,6 +228,12 @@ a:hover#lnkMail {
     margin-left: 4.5%;
     margin-right: 4.5%;
 
+  }
+
+  #exampleBlock a, a:active {
+    font-size: 15px;
+    color: #000;
+    text-underline-position: under;
   }
 
   section#out {
