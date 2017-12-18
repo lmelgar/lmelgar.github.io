@@ -140,12 +140,13 @@ div#socialMedia {
 	direction: rtl;
 }
 
-a#lnkMail, a:visited#lnkMail {
-  font-size: 17px !important;
+a#linkMail, a:active#lnkMail, a:visited#lnkMail {
+  font-size: 16px !important;
   text-underline-position: under;
 }
 
 a:hover#lnkMail {
+  font-size: 16px !important;
   background-color: white;
   color: black !important;
 }
@@ -228,10 +229,6 @@ a:hover#lnkMail {
     margin-left: 4.5%;
     margin-right: 4.5%;
 
-  }
-
-  #exampleBlock a, a:active, a:hover, a:visited {
-    font-size: 15px;
   }
 
   section#out {
