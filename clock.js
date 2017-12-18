@@ -5,13 +5,11 @@ console.log(hours);
 
 $(document).ready(main);
 function main() {
-  if(hours >= 0 && hours < 5) {
-    $('#welcome').html('Good night!');
-  } if(hours >= 5 && hours < 12) {
+    if(hours >= 5 && hours < 12) {
     $('#welcome').html('Good morning!');
-  } if(hours >= 12 && hours < 15) {
+  } if(hours >= 12 && hours < 16) {
     $('#welcome').html('Good afternoon!');
-  } if(hours >= 15 && hours < 24) {
+  } if(hours >= 16 && hours < 24 || hours >= 0 && hours < 5) {
     $('#welcome').html('Good evening!');
   }
 
