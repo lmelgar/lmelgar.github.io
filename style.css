@@ -231,6 +231,18 @@ a:hover#lnkMail {
 
   }
 
+  #exampleBlock a, a:active, a:visited {
+    font-size: 15px;
+    color: #000;
+    text-underline-position: under;
+  }
+
+  #exampleBlock a:hover {
+    font-size: 15px;
+    background-color: #000;
+    color: white;
+  }
+
   section#out {
     height: 70vh;
     margin: 0 auto;
