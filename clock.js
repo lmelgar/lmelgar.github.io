@@ -1,7 +1,7 @@
 var hora_local = new Date();
-console.log(hora_local);
+console.log("Hi there.");
 var hours = hora_local.getHours()
-console.log(hours);
+console.log("Thanks for visiting.");
 
 $(document).ready(main);
 function main() {
