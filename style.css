@@ -7,7 +7,11 @@
   font-family: 'Roboto Mono', monospace;
 }
 
-h2, h3 {
+h2 {
+  font-size: 29px;
+}
+
+h3 {
   font-size: 25px;
 }
 
@@ -244,7 +248,7 @@ a:hover#lnkMail {
   }
 
   section#out {
-    height: 70vh;
+    height: 75vh;
     margin: 0 auto;
     max-width: 100%;
     margin-top: 35px;
