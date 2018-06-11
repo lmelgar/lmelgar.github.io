@@ -156,7 +156,7 @@ div#socialMedia {
 
 a#linkMail, a:active#lnkMail, a:visited#lnkMail {
   font-size: 16px !important;
-  text-underline-position: under;
+  text-underline-position: auto;
 }
 
 a:hover#lnkMail {
