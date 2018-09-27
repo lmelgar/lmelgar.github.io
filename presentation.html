@@ -15,6 +15,7 @@
   font-size: 30px;
   font-family: 'Lato', Helvetica, sans-serif;
   font-weight: 300;
+  line-height: 1.4;
 }
 
 section {
@@ -41,6 +42,7 @@ h1 {
   margin-bottom: 5px;
   line-height: 1.2;
   font-weight: 700;
+
 }
 
 h2 {
@@ -57,12 +59,12 @@ h3 {
 
 }
 
-h4, strong {
+h4, b {
   font-size: 50px;
   font-weight: 300;
 }
 
-strong {
+b {
   font-weight: 700;
 }
 
@@ -92,6 +94,36 @@ span#emoji {
 
 .icons > p {
   font-size: 20px;
+
+}
+
+
+@media only screen and (max-width: 705px) {
+  * {
+    font-size: 25px;
+
+  }
+
+  section {
+    height: 80vh;
+    padding-top: 20%;
+
+  }
+
+  .slide {
+    max-width: 80%;
+
+  }
+
+  h4, b {
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+
+  b {
+    font-weight: 700;
+  }
 
 }
 
@@ -141,7 +173,7 @@ span#emoji {
 
   <section>
     <div id="slide2" class="slide">
-      <h4>Data as any <strong>other source.</strong></h4>
+      <h4>Data as any <b>other source.</b></h4>
     </div>
     <div class="icons">
       <p>🔫 🔫 & 🦅 | 2018</p>
@@ -197,7 +229,7 @@ span#emoji {
 
   <section>
     <div id="slide7" class="slide">
-      <h4>[A friendly reminder: sometimes <strong>it is hard to estimate how much time</strong> can a data story take, specially if it involves coding.]</h4>
+      <h4>[A friendly reminder: sometimes <b>it is hard to estimate how much time</b> can a data story take, specially if it involves coding.]</h4>
     </div>
     <div class="icons">
       <p>🔫 🔫 & 🦅 | 2018</p>
