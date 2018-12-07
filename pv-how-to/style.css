@@ -77,8 +77,8 @@ img.small-img {
 }
 
 img.extra-sm {
-  width: 30px;
-  margin: 0;
+  width: 30px !important;
+  margin: 0 !important;
 }
 
 li {
