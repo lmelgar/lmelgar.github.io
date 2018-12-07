@@ -19,18 +19,18 @@
 
       <p>For this tutorial the idea is to use the K-12 shootings dataset from the <a href="https://www.chds.us/c/">Center for Homeland Defense & Security</a>. The original data can be found <a href="https://docs.google.com/spreadsheets/d/1HqbfMxnk9X3_mQvLyW_LEUe3Yyr7cXMPfwqUVfdq7sY/edit#gid=1670239542">here</a>. You can find a copy of the data that I used <a href="https://docs.google.com/spreadsheets/d/1kxHRDUT017L97LWZ3dGQw6saQLU70Dc-XjkIsCdqRIk/edit?usp=sharing">here</a>.</p>
 
-      <p>Open the dataset by double clicking on the file. The data has 48 columns and 1,326 rows. You can see what it's in each column <a href="https://www.chds.us/ssdb/dataset/">here</a>.</p>
+      <p>Open the dataset by double clicking on the file. The data has 48 columns and 1,326 rows. You can see what is in each column <a href="https://www.chds.us/ssdb/dataset/">here</a>.</p>
 
       <img src="img/img1.png" />
 
-      <p>As part of the best practices, let's create an index for our data (just in case).</p>
+      <p>Best practices: create an index for your data.</p>
 
       <ul>
-        <li>Click in the header from the first column ("A") and do right click. Select <span class="orders">insert</span>.</li>
+        <li>Click in the first column ("A") header and right click. Select <span class="orders">insert</span>.</li>
         <li>Give a name to that column (I usually name it "id").
           <img class="small-img" src="gif/id-col.gif" /></li>
           <li>Write the number of the first two rows (1, 2).</li>
-          <li>Select them. You should see a green square in the bottom right corner of the selection. Place your mouse on it and double click one that you the mouse pointer turns to a black cross. If everything went well, the column should be filled with an index.
+          <li>Select them. You should see a green square in the bottom right corner of the selection <img class="extra-sm" src="img/extra-sm-1.png" />. Place your mouse on green square. If the mouse pointer turns into a black cross <img class="extra-sm" src="img/extra-sm-2.png" />, double click. If everything went well, the column should be filled with an index.
             <img class="small-img" src="gif/id-col-2.gif" /></li>
             <li>Save the file <span class="orders">cmd S</span> (mac) or <span class="orders">ctrl S</span> (pc).</li>
           </ul>
@@ -50,29 +50,29 @@
         </section>
 
         <section>
-              <p>You should see something similar to this. [Remember to name the new tab.]</p>
+              <p>You should see something similar to this. [Remember to name the new tab. As we are looking for data by year, you could name it "pivot-year". Another option: "pivot-1".]</p>
 
               <img src="img/img4.png" />
 
               <ul>
-                <li>The box in the left side is were we will see the outcomes of our selections.
+                <li>The box on the left side is were we will see the outcomes of our selections.
                   <img class="small-img" src="img/img5.png" /></li>
-                  <li>The one in the right side is where we mix the ingredients.
+                  <li>The one on the right side is where we mix the ingredients.
                   <img class="small-img" src="img/img6.png" /></li>
                   <li>Where it says <span class="orders">field name</span>, you'll find all the variables (columns) in your dataset.</li>
-                  <li><span class="orders">Rows</span> area, it's where we're dragging our columns. Doing that, Excel will find all the unique values in that variable and display them.</li>
-                  <li>We want to know how many shooting had been in K-12 by year. Drag date to the <span class="orders">Rows</span> area.
+                  <li>We drag those columns to the <span class="orders">Rows</span> area. Doing that, Excel will find all the unique values in that variable and display them.</li>
+                  <li>So what if we want to know how many shootings took place in K-12 schools by year. First, drag the <span class="orders">date</span> column to the Rows area.
                   <img class="small-img" src="gif/drag-field.gif" /></li>
 
                   <p>You should see something like this:</p>
 
                   <img src="img/img7.png" />
 
-                  <li>Now, we need the values. Every row in our data is an incident. We want to know how many incidents happended every year. We're not summing values, numbers, we are counting how many incidents occurred each year. Drag a field (from the field area) to the Values area. I recommend using <span class="orders">id</span>.</li>
+                  <li>Now, we need the values. Every row in our data is an incident. We want to know how many incidents happended every year. We're not summing values, numbers, we are counting how many incidents occurred each year. Drag a field (from the field area) to the <span class="orders">Values area</span>. I recommend using <span class="orders">id</span>.</li>
 
                   <p>Why <span class="orders">id</span>? If you drag a field with blank cells (no values), the PT won't count those incidents. In this case, we want to be sure that we have all values in the field we're using.</p>
 
-                  <li>Depending on your computer, <span class="orders">Values</span>' outcome will be <span class="orders">Count</span> or <span class="orders">Sum</span> by default. To change that, you just need to click on the little <span class="orders">i</span> icon in the right side of the <span class="orders">Values</span> area. It will display the different options. Let's stick with <span class="orders">Count</span>.
+                  <li>Depending on your computer, <span class="orders">Values</span> outcome will be <span class="orders">Count</span> or <span class="orders">Sum</span> by default. To change that, you just need to click on the little <span class="orders">i</span> icon in the right side of the <span class="orders">Values</span> area. It will display the different options. Let's stick with <span class="orders">Count</span>.
                   <img class="small-img" src="gif/change-count.gif" /></li>
 
                   <p>1970 should have 19 incidents.</p>
@@ -101,7 +101,7 @@
 
                     <img src="img/img9.png" />
 
-                    <p>We want only info about our states. Let's filter.</p>
+                    <p>We want info about our states. Let's filter.</p>
 
                       <li>In the pivot table, the rows and the columns have a filter option by default. You just need to click in the dropdown menu that can be seen in the header of the PT. Check those states that you want as part of your analysis.
                       <img class="small-img" src="gif/filter-rows.gif" /></li>
@@ -125,7 +125,7 @@
             </section>
 
             <section>
-              <p class="section-p">Some tips</p>
+              <p class="section-p">Other considerations</p>
 
               <p>Pivot tables include by default a <span class="orders">Grand Total</span>, which is aggregation of all the values in a column or row. What if you don't want them?</p>
 
@@ -136,7 +136,7 @@
 
               </ul>
 
-              <p>If you made a change in your original dataset after creating a PT, you don't need to redo your PT, you'll need to refresh it.</p>
+              <p>If you made a change in your original dataset after creating a PT (we didn't do that during the tutorial), you don't need to redo your PT, you'll need to refresh it.</p>
 
               <ul>
                   <li>Click on the menu that says <span class="orders">PivotTable Analyze</span>.</li>
@@ -149,12 +149,14 @@
               </ul>
             </section>
 
-            <p>Once that I've finished my PT, I usually copy it and paste it in another tab. It's simpler to work with it in case you want to do calculations. You would need to copy only the values.</p>
+            <p>Once that I've finished my PT, I usually copy/paste in another tab. IMO, it's simpler to work with it in case you want to do calculations.</p>
 
             <ul>
-              <li>Open a new tab. Name it.</li>
-              <li>Click in the first cell, right click in your mouse/pad. Select <span class="orders">Paste special</span>. Select <span class="orders">Values</span>.</li>
-
+              <li>Click on your PT. <span class="orders">cmd A</span> (mac) or <span class="orders">ctrl A</span> (pc) to select all. </li>
+              <li><span class="orders">cmd C</span> (mac) or <span class="orders">ctrl C</span> (pc) to copy. </li>
+              <li>Open a new tab. Name it [I decided to name it "ga-states-shootings"].</li>
+              <li>Click in the first cell in the new worksheet, right click in your mouse/pad. Select <span class="orders">Paste special</span>. Select <span class="orders">Values</span>. We don't want Excel to paste all the the style of the PV, we want the data.
+              <img class="small-img" src="gif/paste.gif" /></li></li>
             </ul>
 
         </div>

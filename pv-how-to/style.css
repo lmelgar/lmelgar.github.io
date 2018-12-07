@@ -76,6 +76,11 @@ img.small-img {
   margin-bottom: 0px;
 }
 
+img.extra-sm {
+  width: 30px;
+  margin: 0;
+}
+
 li {
   width: 90%;
   max-width: 600px;
