@@ -78,7 +78,7 @@ img.small-img {
 
 img.extra-sm {
   width: 30px !important;
-  margin: 0 !important;
+  margin: 0px 0px -5px 0px !important;
 }
 
 li {
