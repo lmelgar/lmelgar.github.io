@@ -18,6 +18,7 @@
 h1 {
   font-size: 42px;
   text-transform: uppercase;
+  width: 95%;
   max-width: 600px;
   width: 100%;
   margin: 0 auto;
@@ -100,4 +101,20 @@ span.orders {
   border-radius: 3px;
   font-style: normal;
 
+}
+
+@media only screen and (max-width: 600px) {
+
+  li {
+    width: 93%;
+    padding-right: 4px;
+  }
+
+  p {
+    width: 92%;
+  }
+
+  h1 {
+    width: 92%;
+  }
 }

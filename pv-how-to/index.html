@@ -33,11 +33,14 @@
           <li>Select them. You should see a green square in the bottom right corner of the selection <img class="extra-sm" src="img/extra-sm-1.png" />. Place your mouse on green square. If the mouse pointer turns into a black cross <img class="extra-sm" src="img/extra-sm-2.png" />, double click. If everything went well, the column should be filled with an index.
             <img class="small-img" src="gif/id-col-2.gif" /></li>
             <li>Save the file <span class="orders">cmd S</span> (mac) or <span class="orders">ctrl S</span> (pc).</li>
-            <p><em>Friendly reminder: If your're working with a <span class="orders">csv</span> file and you save it using <span class="orders">cmd S</span> (mac) or <span class="orders">ctrl S</span> (pc), it will ONLY save the worksheet you're working with at that moment. If you save it while you're working on your pivot table and you close the file, you'll only find the data from the PT once that you reopen the file. If you want to keep them, save the file as an Excel file. Or paste and copy every pivot table and save each of them in new <span class="orders">csv</span> files.</em></p>
-          </ul>
-      </section>
 
-      <section id="create-pivot">
+          </ul>
+
+            <p><em>Friendly reminder: If your're working with a <span class="orders">csv</span> file and you save it using <span class="orders">cmd S</span> (mac) or <span class="orders">ctrl S</span> (pc), it will ONLY save the worksheet you're working with at that moment. If you save it while you're working on your pivot table and you close the file, you'll only find the data from the PT once that you reopen the file. If you want to keep them, save the file as an Excel file. Or paste and copy every pivot table and save each of them in new <span class="orders">csv</span> files.</em></p>
+
+        </section>
+
+        <section id="create-pivot">
           <p class="section-p">Create a pivot table</p>
           <p>Now that our data is ready, we need to make the pivot table (PT).</p>
           <ul>
@@ -48,9 +51,9 @@
               <li>Click <span class="orders">OK</span> (we want the PT to use the range of data that we have already selected and we want it to open the dataset in a new worksheet).
                 <img class="small-img" src="img/img3.png" /></li>
               </ul>
-        </section>
+            </section>
 
-        <section>
+            <section>
               <p>You should see something similar to this. [Remember to name the new tab. As we are looking for data by year, you could name it "pivot-year". Another option: "pivot-1".]</p>
 
               <img src="img/img4.png" />
@@ -59,110 +62,126 @@
                 <li>The box on the left side is were we will see the outcomes of our selections.
                   <img class="small-img" src="img/img5.png" /></li>
                   <li>The one on the right side is where we mix the ingredients.
-                  <img class="small-img" src="img/img6.png" /></li>
-                  <li>Where it says <span class="orders">field name</span>, you'll find all the variables (columns) in your dataset.</li>
-                  <li>We drag those columns to the <span class="orders">Rows</span> area. Doing that, Excel will find all the unique values in that variable and display them.</li>
-                  <li>So what if we want to know how many shootings took place in K-12 schools by year. First, drag the <span class="orders">date</span> column to the Rows area.
-                  <img class="small-img" src="gif/drag-field.gif" /></li>
+                    <img class="small-img" src="img/img6.png" /></li>
+                    <li>Where it says <span class="orders">field name</span>, you'll find all the variables (columns) in your dataset.</li>
+                    <li>We drag those columns to the <span class="orders">Rows</span> area. Doing that, Excel will find all the unique values in that variable and display them.</li>
+                    <li>So what if we want to know how many shootings took place in K-12 schools by year. First, drag the <span class="orders">date</span> column to the Rows area.
+                      <img class="small-img" src="gif/drag-field.gif" /></li>
 
-                  <p>You should see something like this:</p>
+                      <p>You should see something like this:</p>
 
-                  <img src="img/img7.png" />
+                      <img src="img/img7.png" />
 
-                  <li>Now, we need the values. Every row in our data is an incident. We want to know how many incidents happended every year. We're not summing values, numbers, we are counting how many incidents occurred each year. Drag a field (from the field area) to the <span class="orders">Values area</span>. I recommend using <span class="orders">id</span>.</li>
+                      <li>Now, we need the values. Every row in our data is an incident. We want to know how many incidents happended every year. We're not summing values, numbers, we are counting how many incidents occurred each year. Drag a field (from the field area) to the <span class="orders">Values area</span>. I recommend using <span class="orders">id</span>.</li>
 
-                  <p>Why <span class="orders">id</span>? If you drag a field with blank cells (no values), the PT won't count those incidents. In this case, we want to be sure that we have all values in the field we're using.</p>
+                    </ul>
 
-                  <li>Depending on your computer, <span class="orders">Values</span> outcome will be <span class="orders">Count</span> or <span class="orders">Sum</span> by default. To change that, you just need to click on the little <span class="orders">i</span> icon in the right side of the <span class="orders">Values</span> area. It will display the different options. Let's stick with <span class="orders">Count</span>.
-                  <img class="small-img" src="gif/change-count.gif" /></li>
+                    <p>Why <span class="orders">id</span>? If you drag a field with blank cells (no values), the PT won't count those incidents. In this case, we want to be sure that we have all values in the field we're using.</p>
 
-                  <p>1970 should have 19 incidents.</p>
+                    <ul>
 
-                  <img src="img/img8.png" />
+                      <li>Depending on your computer, <span class="orders">Values</span> outcome will be <span class="orders">Count</span> or <span class="orders">Sum</span> by default. To change that, you just need to click on the little <span class="orders">i</span> icon in the right side of the <span class="orders">Values</span> area. It will display the different options. Let's stick with <span class="orders">Count</span>.
+                        <img class="small-img" src="gif/change-count.gif" /></li>
 
-                  <li>Sort the PT: Click on the first value from you values column. Right click. Select <span class="orders">Sort</span> in the menu, select from largest to smallest.
-                  <img class="small-img" src="gif/sort.gif" /></li>
+                      </ul>
 
-                </ul>
+                      <p>1970 should have 19 incidents.</p>
 
-                <p>2018 = 91 incidents.</p>
+                      <img src="img/img8.png" />
 
-              </section>
+                      <ul>
+                        <li>Sort the PT: Click on the first value from you values column. Right click. Select <span class="orders">Sort</span> in the menu, select from largest to smallest.
+                          <img class="small-img" src="gif/sort.gif" /></li>
 
-              <section>
+                        </ul>
 
-                <p class="section-p">It's all about the filters</p>
+                        <p>2018 = 91 incidents.</p>
 
-                <p>Let's find the number of victims in the 10 G&A areas.</p>
+                      </section>
 
-                  <ul>
-                    <li>Create a new pivot table [<a href="#create-pivot">in case you need a reminder on how to do it</a>]. Repeat the second step.</li>
-                    <li>Once that you have your new PT (give it a name), drag the field <span class="orders">State</span> to the <span class="orders">Rows</span> area.</li>
-                    <li>Move the field <span class="orders">id</span> to the <span class="orders">Values</span> area. And set it in <span class="orders">Count</span>. We want to know how many shooting where in those states since 1970.</li>
+                      <section>
 
-                    <img src="img/img9.png" />
+                        <p class="section-p">It's all about the filters</p>
 
-                    <p>We want info about our states. Let's filter.</p>
+                        <p>Let's find the number of victims in the 10 G&A areas.</p>
 
-                      <li>In the pivot table, the rows and the columns have a filter option by default. You just need to click in the dropdown menu that can be seen in the header of the PT. Check those states that you want as part of your analysis.
-                      <img class="small-img" src="gif/filter-rows.gif" /></li>
-                      <li>We not only want to know how many attack were in those state, also how many people died. So let's drag the column <span class="orders">Killed</span> to <span class="orders">Values</span>.</li>
-                      <li>In this case we don't want to count the number of cases where people were killed, but the actual number of people killed. And the <span class="orders">Killed</span> column has an actual number. So instead of <span class="orders">Count</span>, in the <span class="orders">Values</span> area, we will be choosing <span class="orders">Sum</span>.</li>
-                      <li>Let's do the same thing with the number of wounded people. Drag <span class="orders">Wounded</span> to the <span class="orders">Values</span> area as a <span class="orders">Sum</span>.</li>
+                        <ul>
+                          <li>Create a new pivot table [<a href="#create-pivot">in case you need a reminder on how to do it</a>]. Repeat the second step.</li>
+                          <li>Once that you have your new PT (give it a name), drag the field <span class="orders">State</span> to the <span class="orders">Rows</span> area.</li>
+                          <li>Move the field <span class="orders">id</span> to the <span class="orders">Values</span> area. And set it in <span class="orders">Count</span>. We want to know how many shooting where in those states since 1970.</li>
 
-                      <p>You should have something like this:</p>
+                        </ul>
 
-                      <img src="img/img10.png" />
+                        <img src="img/img9.png" />
 
-                      <p>The data includes a variable that sets how reliable is the record about an attack. I want to filter the data so I can have only those incidents that have multiple sources (rated as 3, 4 and 5 in the dataset).</p>
+                        <p>We want info about our states. Let's filter.</p>
+
+                        <ul>
+                          <li>In the pivot table, the rows and the columns have a filter option by default. You just need to click in the dropdown menu that can be seen in the header of the PT. Check those states that you want as part of your analysis. <img class="small-img" src="gif/filter-rows.gif" /></li>
+                          <li>We not only want to know how many attack were in those state, also how many people died. So let's drag the column <span class="orders">Killed</span> to <span class="orders">Values</span>.</li>
+                          <li>In this case we don't want to count the number of cases where people were killed, but the actual number of people killed. And the <span class="orders">Killed</span> column has an actual number. So instead of <span class="orders">Count</span>, in the <span class="orders">Values</span> area, we will be choosing <span class="orders">Sum</span>.</li>
+                          <li>Let's do the same thing with the number of wounded people. Drag <span class="orders">Wounded</span> to the <span class="orders">Values</span> area as a <span class="orders">Sum</span>.</li>
+
+                        </ul>
+
+                        <p>You should have something like this:</p>
+
+                        <img src="img/img10.png" />
+
+                        <p>The data includes a variable that sets how reliable is the record about an attack. I want to filter the data so I can have only those incidents that have multiple sources (rated as 3, 4 and 5 in the dataset).</p>
+
+                      </ul>
 
                       <li>Drag the field <span class="orders">Reliability Score (1-5)</span> to the <span class="orders">Filters</span> area.</li>
                       <li>Now you have a dropdown menu on the top left corner of your worksheet. Click on it and unclick the check boxes for 1 and 2. <br /> <img class="small-img" src="gif/filter-value.gif" />
                       </li>
 
-                      <p>Now we can see the number of 'reliable' shootings in K-12 since 1970.</p>
-                </ul>
+                    </ul>
 
-            </section>
 
-            <section>
-              <p class="section-p">Other considerations</p>
+                    <p>Now we can see the number of 'reliable' shootings in K-12 since 1970.</p>
 
-              <p>Pivot tables include by default a <span class="orders">Grand Total</span>, which is aggregation of all the values in a column or row. What if you don't want them?</p>
 
-              <ul>
+                  </section>
 
-                <li>Click on the last menu option: <span class="orders">Design</span>. Click on the small black triangle close to the tab <span class="orders">Grand Total</span>. Select your favorite display.
-                <img class="small-img" src="gif/grand-value.gif" /></li>
+                  <section>
+                    <p class="section-p">Other considerations</p>
 
-              </ul>
+                    <p>Pivot tables include by default a <span class="orders">Grand Total</span>, which is aggregation of all the values in a column or row. What if you don't want them?</p>
 
-              <p>If you made a change in your original dataset after creating a PT (we didn't do that during the tutorial), you don't need to redo your PT, you'll need to refresh it.</p>
+                    <ul>
 
-              <ul>
-                  <li>Click on the menu that says <span class="orders">PivotTable Analyze</span>.</li>
-                  <li>Click on <span class="orders">Refresh</span>.
-                    <img class="small-img" src="img/img11.png" /></li>
-              </ul>
+                      <li>Click on the last menu option: <span class="orders">Design</span>. Click on the small black triangle close to the tab <span class="orders">Grand Total</span>. Select your favorite display.
+                        <img class="small-img" src="gif/grand-value.gif" /></li>
 
-            </section>
+                      </ul>
 
-            <p>Once that I've finished my PT, I usually copy/paste in another tab. IMO, it's simpler to work with it in case you want to do calculations.</p>
+                      <p>If you made a change in your original dataset after creating a PT (we didn't do that during the tutorial), you don't need to redo your PT, you'll need to refresh it.</p>
 
-            <ul>
-              <li>Click on your PT. <span class="orders">cmd A</span> (mac) or <span class="orders">ctrl A</span> (pc) to select all. </li>
-              <li><span class="orders">cmd C</span> (mac) or <span class="orders">ctrl C</span> (pc) to copy. </li>
-              <li>Open a new tab. Name it [I decided to name it "ga-states-shootings"].</li>
-              <li>Click in the first cell in the new worksheet, right click in your mouse/pad. Select <span class="orders">Paste special</span>. Select <span class="orders">Values</span>. We don't want Excel to paste all the the style of the PV, we want the data.
-              <img class="small-img" src="gif/paste.gif" /></li></li>
-            </ul>
+                      <ul>
+                        <li>Click on the menu that says <span class="orders">PivotTable Analyze</span>.</li>
+                        <li>Click on <span class="orders">Refresh</span>.
+                          <img class="small-img" src="img/img11.png" /></li>
+                        </ul>
 
-        <p>Thanks to <a href="https://twitter.com/ealfinj">Emily Alfin Johnson</a>, who edited this tutorial 👩‍💻.</p>
+                      </section>
 
-        <p>Comments, ideas, corrections: lmelgar[at]wamu[dot]org;
+                      <p>Once that I've finished my PT, I usually copy/paste in another tab. IMO, it's simpler to work with it in case you want to do calculations.</p>
 
-        </div>
+                      <ul>
+                        <li>Click on your PT. <span class="orders">cmd A</span> (mac) or <span class="orders">ctrl A</span> (pc) to select all. </li>
+                        <li><span class="orders">cmd C</span> (mac) or <span class="orders">ctrl C</span> (pc) to copy. </li>
+                        <li>Open a new tab. Name it [I decided to name it "ga-states-shootings"].</li>
+                        <li>Click in the first cell in the new worksheet, right click in your mouse/pad. Select <span class="orders">Paste special</span>. Select <span class="orders">Values</span>. We don't want Excel to paste all the the style of the PV, we want the data.
+                          <img class="small-img" src="gif/paste.gif" /></li></li>
+                        </ul>
 
-</body>
+                        <p>Thanks to <a href="https://twitter.com/ealfinj">Emily Alfin Johnson</a>, who edited this tutorial 👩‍💻.</p>
 
-</html>
+                        <p>Comments, ideas, corrections: lmelgar[at]wamu[dot]org;
+
+                        </div>
+
+                      </body>
+
+                      </html>
