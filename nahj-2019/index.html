@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>How to use Datawrapper</title>
+
+    <style media="screen">
+      * {
+        font-family: helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 1.2;
+      }
+
+      #container {
+        max-width: 700px;
+        margin: 0 auto;
+        padding-bottom: 30px;
+      }
+
+      .new-section {
+        margin-bottom: 90px;
+      }
+
+      h1, h4, p {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 50px;
+      }
+
+      h4 {
+        font-size: 20px;
+        margin-top: 15px;
+      }
+
+      p {
+        line-height: 1.5;
+        font-weight: 300;
+        max-width: 700px;
+      }
+
+      span.intro {
+        text-transform: uppercase;
+      }
+
+      a, a:active, a:hover, a:visited, a.nav-int, a.nav-int:hover, a.nav-int:visited {
+        color: tomato;
+      }
+
+      a.nav-int, a.nav-int:hover, a.nav-int:visited {
+        text-decoration: none;
+        font-weight: 300;
+      }
+
+      img {
+        width: 100%;
+        max-width: 800px;
+        margin: 10px 0px 20px 0px;
+      }
+
+      img.small {
+        max-width: 350px;
+      }
+
+      .sep {
+        width: 150px;
+        border-bottom: 7px tomato solid;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Charting with Datawrapper</h1>
+
+      <p><span class="intro">Yolanda Martinez (WSJ)</span> & <span class="intro">Luis Melgar (WAMU)</span></p>
+
+      <div class="new-section">
+        <div class="sep"></div>
+        <h4>Some thoughts on data viz</h4>
+        <p><strong>1.</strong> Keep it consistent. Things that are the same should look the same.</p>
+        <p><strong>2.</strong> Everybody loves maps, but not every dataset involving states or counties needs to be a map.</p>
+        <p><strong>3.</strong> Colors are great, but too many colors can be overwhelming and can make your graphic hard to read. Keep your palettes simple. Use color to stress what it's important.</p>
+        <p><strong>4.</strong> Sketch by hand before using any software. Think about what data you have in your dataset (time, geography, multiple variables...).</p>
+        <p><strong>5.</strong> You don't need to put everything in one graphic. Sometimes, you need more than one graphic to explain something.</p>
+        <p><strong>6.</strong> Learn how to use graphics. Don't choose your graphic because of their asthetics. Firt, think about what do you want your audience to learn from that graphic and what chart fits better with your data.</p>
+
+
+      </div>
+
+      <div class="new-section">
+        <div class="sep"></div>
+        <h4>Where to find Datawrapper</h4>
+        <p>Datawrapper is a free tool that allows you to create responsive graphics that can be embeded. You can find Datawrapper's website <a src="www.datawrapper.de">here.</a></p>
+
+        <p>If you don't have one, you'll need to create an account. It's pretty simple, you can even do it using your Google account.</p>
+
+        <a class="nav-int" href="#map">GO TO HOW TO DO A MAP</a>
+
+      </div>
+
+      <div class="new-section">
+        <div class="sep"></div>
+        <h4>Barcharts: Always useful, always elegant</h4>
+
+<iframe title="States with the highest number of machine guns" aria-label="Bar Chart" id="datawrapper-chart-559Nn" src="//datawrapper.dwcdn.net/559Nn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="410"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+
+        <p><strong>1.</strong> Copy the data from <a href="https://docs.google.com/spreadsheets/d/139aFyxS3o98CGQHQ3nMtLBQJHqyEPCFdZoRPO_rHVWo/edit?usp=sharing">this Google spreadsheet</a>.</p>
+        <p><strong>2.</strong> Go to Datawrapper and click on New Chart, in the menu in the top.</p>
+        <img src="img/1-create-new.png" />
+
+        <p><strong>3.</strong> Add the data that you want to use in the graphic.</p>
+        <img src="img/2-copy-data.png" />
+
+        <p>You have four options to upload the data.</p>
+        <img class="small" src="img/3-how-to-data.png" />
+
+        <p><strong>4.</strong> Once that you have uploaded the data, click on the 'Proceed' button. You will see how your data looks like and what type of data is stored in each column – number, date, text... –</p>
+        <img src="img/4-what-data.png" />
+
+        <p><em>[You can skip this part, if you want]</em> You can select each column by clicking on its header. It allows you to change the type of data, see the distribution in the data, run calculations...</p>
+        <img src="img/5-how-it-looks-like.png" />
+
+        <p>By default you'll see a line chart.</p>
+        <img src="img/6-what-you-get.png" />
+
+        <p>But you can change that in the menu on the left side of the screen. In this case, we're using a bar chart.</p>
+
+        <img class="small" src="img/7-chart-type.png" />
+
+        <p>Let's give some style to this graphic. Click on the next tab in the menu: 'Refine.'</p>
+
+        <img class="small" src="img/8-navigation.png" />
+
+        <p><strong>5.</strong> Modify the asthetics of you graphic. You can change the colors, thead axes, the position of the labels...</p>
+
+        <p>In this case I want the bars, and I want them to be orange, but I want Florida to be in a darker shade of orange. I also prefer the value labels align to the right and a thin line between bars.</p>
+
+        <img src="img/9-refine.png" />
+
+        <p>You can modify all of that in the menu in the left. With the 'base color' you can choose how you want the bars to look like, but you'll need to use the 'customize' option to modify the color of specific bars.</p>
+
+        <img class="small" src="img/9-refine-b.png" />
+
+        <p><strong>6.</strong> Once that you're happy with the outcome, click on 'Proceed' so you can add the finishing touches to the graphic. In the 'Annotate' tab you can include a title, a subtitle, source, a link to where the data comes from...</p>
+
+        <img src="img/11-annotate.png" />
+
+        <p>Done with the annotation? Click 'Proceed.' It will take you to the 'Design' tab. Let's skip this one, click 'Proceed again'.</p>
+
+        <p><strong>7.</strong> Now let's publish the graphic. Click on 'Publish chart'.</p>
+
+        <img class="small" src="img/12-publish.png" />
+
+        <p>Once that the graphic is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL – it usually looks nicer in the 'Normal size.'</p>
+
+        <img src="img/13-published.png" />
+      </div>
+
+      </div>
+
+
+  </body>
+</html>
