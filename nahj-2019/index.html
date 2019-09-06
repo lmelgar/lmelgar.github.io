@@ -1,173 +1,278 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>How to use Datawrapper</title>
+<head>
+  <meta charset="utf-8">
+  <title>How to use Datawrapper</title>
 
-    <style media="screen">
-      * {
-        font-family: helvetica, sans-serif;
-        font-size: 18px;
-        line-height: 1.2;
-      }
+  <style media="screen">
+  * {
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+  }
 
-      #container {
-        max-width: 700px;
-        margin: 0 auto;
-        padding-bottom: 30px;
-      }
+  #container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
 
-      .new-section {
-        margin-bottom: 90px;
-      }
+  .new-section {
+    margin-bottom: 90px;
+  }
 
-      h1, h4, p {
-        max-width: 100%;
-        margin-bottom: 20px;
-      }
+  h1, h4, p {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
 
-      h1 {
-        font-size: 50px;
-      }
+  h1 {
+    font-size: 50px;
+  }
 
-      h4 {
-        font-size: 20px;
-        margin-top: 15px;
-      }
+  h4 {
+    font-size: 20px;
+    margin-top: 15px;
+  }
 
-      p {
-        line-height: 1.5;
-        font-weight: 300;
-        max-width: 700px;
-      }
+  p {
+    line-height: 1.5;
+    font-weight: 300;
+    max-width: 700px;
+  }
 
-      span.intro {
-        text-transform: uppercase;
-      }
+  span.intro {
+    text-transform: uppercase;
+  }
 
-      a, a:active, a:hover, a:visited, a.nav-int, a.nav-int:hover, a.nav-int:visited {
-        color: tomato;
-      }
+  a, a:active, a:hover, a:visited, a.nav-int, a.nav-int:hover, a.nav-int:visited {
+    color: tomato;
+  }
 
-      a.nav-int, a.nav-int:hover, a.nav-int:visited {
-        text-decoration: none;
-        font-weight: 300;
-      }
+  a.nav-int, a.nav-int:hover, a.nav-int:visited {
+    text-decoration: none;
+    font-weight: 300;
+  }
 
-      img {
-        width: 100%;
-        max-width: 800px;
-        margin: 10px 0px 20px 0px;
-      }
+  img {
+    width: 100%;
+    max-width: 800px;
+    margin: 10px 0px 20px 0px;
+  }
 
-      img.small {
-        max-width: 350px;
-      }
+  img.small {
+    max-width: 350px;
+  }
 
-      .sep {
-        width: 150px;
-        border-bottom: 7px tomato solid;
-        margin-top: 40px;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="container">
-      <h1>Charting with Datawrapper</h1>
+  .sep {
+    width: 150px;
+    border-bottom: 7px tomato solid;
+    margin-top: 40px;
+  }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Charting with Datawrapper</h1>
 
-      <p><span class="intro">Yolanda Martinez (WSJ)</span> & <span class="intro">Luis Melgar (WAMU)</span></p>
+    <p><span class="intro">Yolanda Martinez (WSJ)</span> & <span class="intro">Luis Melgar (WAMU)</span></p>
 
-      <div class="new-section">
-        <div class="sep"></div>
-        <h4>Some thoughts on data viz</h4>
-        <p><strong>1.</strong> Garbage in, garbage out. A nice looking graphic won't save lousy data.</p>
-        <p><strong>2.</strong> Keep it consistent. Things that are the same should look the same.</p>
-        <p><strong>3.</strong> Everybody loves maps, but not every dataset involving states or counties needs to be a map.</p>
-        <p><strong>4.</strong> Colors are great, but too many colors can be overwhelming and can make your graphic hard to read. Keep your palettes simple. Use color to stress what it's important.</p>
-        <p><strong>5.</strong> Sketch by hand before using any software. Think about what data you have in your dataset (time, geography, multiple variables...).</p>
-        <p><strong>6.</strong> You don't need to put everything in one graphic. Sometimes, you need more than one graphic to explain something.</p>
-        <p><strong>7.</strong> Learn how to use graphics. Don't choose your graphic because of their asthetics. Firt, think about what do you want your audience to learn from that graphic and what chart fits better with your data.</p>
+    <div class="new-section">
+      <div class="sep"></div>
+      <h4>Some thoughts on data viz</h4>
+      <p><strong>1.</strong> Garbage in, garbage out. A nice looking graphic won't save lousy data.</p>
+      <p><strong>2.</strong> Keep it consistent. Things that are the same should look the same.</p>
+      <p><strong>3.</strong> Everybody loves maps, but not every dataset involving states or counties needs to be a map.</p>
+      <p><strong>4.</strong> Colors are great, but too many colors can be overwhelming and can make your graphic hard to read. Keep your palettes simple. Use color to stress what it's important.</p>
+      <p><strong>5.</strong> Sketch by hand before using any software. Think about what data you have in your dataset (time, geography, multiple variables...).</p>
+      <p><strong>6.</strong> You don't need to put everything in one graphic. Sometimes, you need more than one graphic to explain something.</p>
+      <p><strong>7.</strong> Learn how to use graphics. Don't choose your graphic because of their asthetics. Firt, think about what do you want your audience to learn from that graphic and what chart fits better with your data.</p>
+
+    </div>
+
+    <div class="new-section">
+      <div class="sep"></div>
+      <h4>Where to find Datawrapper</h4>
+      <p>Datawrapper is a free tool that allows you to create responsive graphics that can be embeded. You can find Datawrapper's website <a src="www.datawrapper.de">here.</a></p>
+
+      <p>If you don't have one, you'll need to create an account. It's pretty simple, you can even do it using your Google account.</p>
+
+      <a class="nav-int" href="#map">GO TO HOW TO DO A MAP</a>
+
+    </div>
+
+    <div class="new-section">
+      <div class="sep"></div>
+      <h4>Barcharts: Always useful, always elegant</h4>
+
+      <p>This is how a barchart in Datawrapper looks like. 👇</p>
+
+      <br />
+
+      <iframe title="States with the highest number of machine guns" aria-label="Bar Chart" id="datawrapper-chart-559Nn" src="//datawrapper.dwcdn.net/559Nn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="410"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+
+      <br />
+
+      <p><strong>1.</strong> Copy the data from <a href="https://docs.google.com/spreadsheets/d/139aFyxS3o98CGQHQ3nMtLBQJHqyEPCFdZoRPO_rHVWo/edit?usp=sharing">this Google spreadsheet</a>.</p>
+      <p><strong>2.</strong> Go to Datawrapper and click on New Chart, in the menu in the top.</p>
+      <img src="img/1-create-new.png" />
+
+      <p><strong>3.</strong> Add the data that you want to use in the graphic.</p>
+      <img src="img/2-copy-data.png" />
+
+      <p>You have four options to upload the data.</p>
+      <img class="small" src="img/3-how-to-data.png" />
+
+      <p><strong>4.</strong> Once that you have uploaded the data, click on the 'Proceed' button. You will see how your data looks like and what type of data is stored in each column – number, date, text... –</p>
+      <img src="img/4-what-data.png" />
+
+      <p><em>[You can skip this part, if you want]</em> You can select each column by clicking on its header. It allows you to change the type of data, see the distribution in the data, run calculations...</p>
+      <img src="img/5-how-it-looks-like.png" />
+
+      <p>By default you'll see a line chart.</p>
+      <img src="img/6-what-you-get.png" />
+
+      <p>But you can change that in the menu on the left side of the screen. In this case, we're using a bar chart.</p>
+
+      <img class="small" src="img/7-chart-type.png" />
+
+      <p>Let's give some style to this graphic. Click on the next tab in the menu: 'Refine.'</p>
+
+      <img class="small" src="img/8-navigation.png" />
+
+      <p><strong>5.</strong> Modify the asthetics of you graphic. You can change the colors, thead axes, the position of the labels...</p>
+
+      <p>In this case I want the bars, and I want them to be orange, but I want Florida to be in a darker shade of orange. I also prefer the value labels aligned to the right and a thin line between bars.</p>
+
+      <img src="img/9-refine.png" />
+
+      <p>You can modify all of that in the menu in the left. With the 'base color' you can choose how you want the bars to look like, but you'll need to use the 'customize' option to modify the color of specific bars.</p>
+
+      <img class="small" src="img/9-refine-b.png" />
+
+      <p><strong>6.</strong> Once that you're happy with the outcome, click on 'Proceed' so you can add the finishing touches to the graphic. In the 'Annotate' tab you can include a title, a subtitle, source, a link to where the data comes from...</p>
+
+      <img src="img/11-annotate.png" />
+
+      <p>Done with the annotation? Click 'Proceed.' It will take you to the 'Design' tab. Let's skip this one, click 'Proceed again'.</p>
+
+      <p><strong>7.</strong> Now let's publish the graphic. Click on 'Publish chart'.</p>
+
+      <img class="small" src="img/12-publish.png" />
+
+      <p>Once that the graphic is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL – it usually looks nicer in the 'Normal size.'</p>
+
+      <img src="img/13-published.png" />
+    </div>
+
+    <div class="new-section" id="map">
+      <div class="sep"></div>
+      <h4>Maps: We all love maps</h4>
+
+      <p>This is how a choropleth map looks like. 👇</p>
+
+      <br />
+
+      <iframe title="Workers that walk to their work" aria-label="USA counties (2018) choropleth map" id="datawrapper-chart-u81hj" src="//datawrapper.dwcdn.net/u81hj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="631"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+
+      <br />
+
+      <p><strong>1.</strong> Download the data from here. [IMPORTANT: Don' try to open it with Excel or Numbers]</p>
+      <p><strong>2.</strong> Go to Datawrapper and click on 'New map,' in the menu in the top. Then select the 'Choropleth map' option.</p>
+      <img src="img/1-map-create-new.png" />
+
+      <p><strong>3.</strong> In the search area, type 'USA' and selec USA counties (2018).</p>
+      <img src="img/2-map-select-base.png" />
+
+      <p>By defualt, Datawrapper offers maps at the XXXX level. What if you want to create a map of a metro area – Miami-Ft. Lauderdale-Palm Beach, for example –, or by zip code, you could upload your own map base. In some cases local government made those maps public.</p>
+
+      <p>The county level map should look like this.</p>
+      <img src="img/3-map-add-data.png" />
+
+      <p>If it does, you can import the data. For that, you could copy and paste it in the box, or you could click on the button that says 'Import your dataset.' Let's go with this second option.</p>
+
+      <p>This process should be pretty straight forward, you just need to follow the instructions on thhe pop-up menu.</p>
+
+      <img class="small" src="img/4-map-start-import.png" />
+
+      <p><strong>4.</strong> The next step allows you to copy and paste the data or upload a file. My recommendation in this case – upload a file. [TECHNICAL EXPLANATION: To create a county level map, Datawrapper relies on the a code know as FIPS, a five number code that identify each county. In some states, like Alabama, FIPS codes starts with 0 – Atachuga county, 0XXXXX -. Excel and Google spreadsheet read those codes as numbers, and numbers don't start with zero. If you want to know how deal with that when working with Excel or Google spreadsheet, ping me.]</p>
+
+      <img class="small" src="img/5-map-upload-data.png" />
+
+      <p><strong>5.</strong> Select the column with the FIPS. In this dataset is the third one.</p>
+
+      <img class="small" src="img/6-map-where-are-fips.png" />
+
+      <p><strong>6.</strong> Now select the column that including the values that you want to visualize. This dataset contains data on wokers over 16 that commute to their work walking or using public transportation. It includes the total number for each category, but also the percentage.</p>
+
+      <p>The last column is share of workers that walk to their works. I'm using that one.</p>
+
+      <img class="small" src="img/7-map-data-values.png" />
+
+      <p>Your data should look something like this.</p>
+
+      <img class="small" src="img/8-map-how-it-looks.png" />
+
+      <p>It it does, click on 'Proceed.'</p>
+
+      <p>The next interface is very similar to the one that we saw while we were creating the barchart. The first thing that you'll see is the 'Refine' tab. It allows you to modify the asthetics of the graphic. I want my map to look like this.</p>
+
+      <img src="img/9-map-map.png" />
+
+      <p><strong>7.</strong> In the 'Color palette' section, you can select the palette you want to use to visualize the data. It offers palettes for continous scales – go in order, positive or negative – or diverging scales – for example, it goes from 0 to negative and from 0 to positive values–. If you want, you can create your own palette. You can find some resources for that here, here, here, and here. Please double check that your palette is color blind friendly. </p>
+
+      <img class="small" src="img/10-map-color-scale.png" />
+
+      <p><strong>8.</strong> You'll also need to select how you want the data to be distributed. You can do that by clicking on 'Stops'. In this case I'm using quintiles, that will equally distribute all the values in five categories.</p>
+
+      <p>You could also change the column that you want to visualize, if you want to.</p>
+
+      <p><strong>9.</strong> Now let's create a tooltip, so when someone mouse over a county can read the name of the county and the value we're visualizing. Click on 'Customize tooltips.'</p>
+
+      <p>A new window will pop up. You have some blank areas and some blue blocks with the name of the variables inside of it. If you click on the blue blocks, it will add that variable to the tooltip. But you can also include some text. And if you know some html, you can bold text, include breaks...</p>
+
+      <img class="small" src="img/12-map-tooltip.png" />
+
+      <p><strong>10.</strong> Quite probably now the key - that help to understand what the colors represent - quite probably looks weird, like every color seem to have the same shade. If that's the case, let's fix it.</p>
+
+      <p>Unselect 'Automatically generate legend.' You'll see a new menu like this.</p>
+
+      <img class="small" src="img/11-map-key.png" />
+
+      <p>In each of the blank field under the 'Caption' title, you can add  the value that will act as a breaking point in the scale.</p>
+
+      <p>If you want to add more values, just click on 'Add legend row.' If you want to delete a row, click on the 'X' in the right side of each row.</p>
+
+      <p><strong>9.</strong> Click on 'Proceed.' The next tab is 'Annotate.' As we did with the barchart, we're giving the map a title, a byline and a description.</p>
+
+      <img class="small" src="img/13-map-annotation.png" />
+
+      <p>Done with the annotation? Click 'Proceed.' It will take you to the 'Design' tab. Let's skip this one, click 'Proceed again'.</p>
+
+      <p><strong>10.</strong> Let's publish the map. Click on 'Publish chart'.</p>
+
+      <img class="small" src="img/12-publish.png" />
+
+      <p>Once that the map is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL – it usually looks nicer in the 'Normal size.'</p>
+
+    </div>
+
+    <div class="new-section">
+      <div class="sep"></div>
+      <h4>References</h4>
+      <p><strong>1.</strong> Garbage in, garbage out. A nice looking graphic won't save lousy data.</p>
+      <p><strong>2.</strong> Keep it consistent. Things that are the same should look the same.</p>
+      <p><strong>3.</strong> Everybody loves maps, but not every dataset involving states or counties needs to be a map.</p>
+      <p><strong>4.</strong> Colors are great, but too many colors can be overwhelming and can make your graphic hard to read. Keep your palettes simple. Use color to stress what it's important.</p>
+      <p><strong>5.</strong> Sketch by hand before using any software. Think about what data you have in your dataset (time, geography, multiple variables...).</p>
+      <p><strong>6.</strong> You don't need to put everything in one graphic. Sometimes, you need more than one graphic to explain something.</p>
+      <p><strong>7.</strong> Learn how to use graphics. Don't choose your graphic because of their asthetics. Firt, think about what do you want your audience to learn from that graphic and what chart fits better with your data.</p>
+
+    </div>
 
 
-      </div>
-
-      <div class="new-section">
-        <div class="sep"></div>
-        <h4>Where to find Datawrapper</h4>
-        <p>Datawrapper is a free tool that allows you to create responsive graphics that can be embeded. You can find Datawrapper's website <a src="www.datawrapper.de">here.</a></p>
-
-        <p>If you don't have one, you'll need to create an account. It's pretty simple, you can even do it using your Google account.</p>
-
-        <a class="nav-int" href="#map">GO TO HOW TO DO A MAP</a>
-
-      </div>
-
-      <div class="new-section">
-        <div class="sep"></div>
-        <h4>Barcharts: Always useful, always elegant</h4>
-
-        <p>This is how a barchart in Datawrapper looks like. 👇</p>
-
-        <br>
-
-<iframe title="States with the highest number of machine guns" aria-label="Bar Chart" id="datawrapper-chart-559Nn" src="//datawrapper.dwcdn.net/559Nn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="410"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
-
-        <br>
-
-        <p><strong>1.</strong> Copy the data from <a href="https://docs.google.com/spreadsheets/d/139aFyxS3o98CGQHQ3nMtLBQJHqyEPCFdZoRPO_rHVWo/edit?usp=sharing">this Google spreadsheet</a>.</p>
-        <p><strong>2.</strong> Go to Datawrapper and click on New Chart, in the menu in the top.</p>
-        <img src="img/1-create-new.png" />
-
-        <p><strong>3.</strong> Add the data that you want to use in the graphic.</p>
-        <img src="img/2-copy-data.png" />
-
-        <p>You have four options to upload the data.</p>
-        <img class="small" src="img/3-how-to-data.png" />
-
-        <p><strong>4.</strong> Once that you have uploaded the data, click on the 'Proceed' button. You will see how your data looks like and what type of data is stored in each column – number, date, text... –</p>
-        <img src="img/4-what-data.png" />
-
-        <p><em>[You can skip this part, if you want]</em> You can select each column by clicking on its header. It allows you to change the type of data, see the distribution in the data, run calculations...</p>
-        <img src="img/5-how-it-looks-like.png" />
-
-        <p>By default you'll see a line chart.</p>
-        <img src="img/6-what-you-get.png" />
-
-        <p>But you can change that in the menu on the left side of the screen. In this case, we're using a bar chart.</p>
-
-        <img class="small" src="img/7-chart-type.png" />
-
-        <p>Let's give some style to this graphic. Click on the next tab in the menu: 'Refine.'</p>
-
-        <img class="small" src="img/8-navigation.png" />
-
-        <p><strong>5.</strong> Modify the asthetics of you graphic. You can change the colors, thead axes, the position of the labels...</p>
-
-        <p>In this case I want the bars, and I want them to be orange, but I want Florida to be in a darker shade of orange. I also prefer the value labels align to the right and a thin line between bars.</p>
-
-        <img src="img/9-refine.png" />
-
-        <p>You can modify all of that in the menu in the left. With the 'base color' you can choose how you want the bars to look like, but you'll need to use the 'customize' option to modify the color of specific bars.</p>
-
-        <img class="small" src="img/9-refine-b.png" />
-
-        <p><strong>6.</strong> Once that you're happy with the outcome, click on 'Proceed' so you can add the finishing touches to the graphic. In the 'Annotate' tab you can include a title, a subtitle, source, a link to where the data comes from...</p>
-
-        <img src="img/11-annotate.png" />
-
-        <p>Done with the annotation? Click 'Proceed.' It will take you to the 'Design' tab. Let's skip this one, click 'Proceed again'.</p>
-
-        <p><strong>7.</strong> Now let's publish the graphic. Click on 'Publish chart'.</p>
-
-        <img class="small" src="img/12-publish.png" />
-
-        <p>Once that the graphic is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL – it usually looks nicer in the 'Normal size.'</p>
-
-        <img src="img/13-published.png" />
-      </div>
-
-      </div>
+  </div>
 
 
-  </body>
+</body>
 </html>
