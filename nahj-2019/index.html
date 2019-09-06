@@ -54,6 +54,10 @@
     font-weight: 300;
   }
 
+  li {
+    margin-bottom: 10px;
+  }
+
   img {
     width: 100%;
     max-width: 800px;
@@ -71,6 +75,8 @@
   }
   </style>
 </head>
+
+
 <body>
   <div id="container">
     <h1>Charting with Datawrapper</h1>
@@ -87,6 +93,25 @@
       <p><strong>5.</strong> Sketch by hand before using any software. Think about what data you have in your dataset (time, geography, multiple variables...).</p>
       <p><strong>6.</strong> You don't need to put everything in one graphic. Sometimes, you need more than one graphic to explain something.</p>
       <p><strong>7.</strong> Learn how to use graphics. Don't choose your graphic because of their asthetics. Firt, think about what do you want your audience to learn from that graphic and what chart fits better with your data.</p>
+
+    </div>
+
+    <div class="new-section">
+      <div class="sep"></div>
+      <h4>References, inspiration, things</h4>
+      <li><a href="https://datavizproject.com/">The Dataviz Project</a></li>
+      <li><a href="https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary">Chart Doctor</a></li>
+      <li><a href="https://github.com/OpenNewsLabs/news-graphics-team">Graphics Teams</a></li>
+      <li><a href="https://www.nytimes.com/interactive/2018/us/2018-year-in-graphics.html">NYT's best of 2018</a></li>
+      <li><a href="https://features.propublica.org/2018-year-in-review/propublica-visual-journalism-data-design-photography-illustration-video/?utm_content=buffer5f8c4&utm_medium=social&utm_source=twitter&utm_campaign=buffer">ProPublica's best of 2018</a></li>
+      <li><a href="https://www.washingtonpost.com/graphics/2018/ns/best-graphics/">WaPo's best of 2018</a></li>
+      <li><a href="https://www.wsj.com/graphics/year-in-graphics-2018/">WSJ's best of 2018</a></li>
+      <li><a href="https://fivethirtyeight.com/features/the-45-best-and-weirdest-charts-we-made-in-2018/">538's best of 2018</a></li>
+      <li><a href="http://www.thefunctionalart.com/">The Functional Art</a></li>
+      <li><a href="https://flowingdata.com/">Flowing Data</a></li>
+
+
+
 
     </div>
 
@@ -177,14 +202,14 @@
 
       <br />
 
-      <p><strong>1.</strong> Download the data from here. [IMPORTANT: Don' try to open it with Excel or Numbers]</p>
+      <p><strong>1.</strong> Download the data from <a href="http://www.lmelgar.me/nahj-2019/data/public_transportation.csv" download>here</a>. [IMPORTANT: Don' try to open it with Excel or Numbers]</p>
       <p><strong>2.</strong> Go to Datawrapper and click on 'New map,' in the menu in the top. Then select the 'Choropleth map' option.</p>
       <img src="img/1-map-create-new.png" />
 
       <p><strong>3.</strong> In the search area, type 'USA' and selec USA counties (2018).</p>
       <img src="img/2-map-select-base.png" />
 
-      <p>By defualt, Datawrapper offers maps at the XXXX level. What if you want to create a map of a metro area – Miami-Ft. Lauderdale-Palm Beach, for example –, or by zip code, you could upload your own map base. In some cases local government made those maps public.</p>
+      <p>By default, Datawrapper offers maps at the Census tract level. What if you want to create a map of a metro area – Miami-Ft. Lauderdale-Palm Beach, for example –, or by zip code, you could upload your own map base. In some cases local government made those maps public.</p>
 
       <p>The county level map should look like this.</p>
       <img src="img/3-map-add-data.png" />
@@ -219,7 +244,7 @@
 
       <img src="img/9-map-map.png" />
 
-      <p><strong>7.</strong> In the 'Color palette' section, you can select the palette you want to use to visualize the data. It offers palettes for continous scales – go in order, positive or negative – or diverging scales – for example, it goes from 0 to negative and from 0 to positive values–. If you want, you can create your own palette. You can find some resources for that here, here, here, and here. Please double check that your palette is color blind friendly. </p>
+      <p><strong>7.</strong> In the 'Color palette' section, you can select the range of colors you want to use to visualize the data. It offers palettes for continous scales – go in order, positive or negative – or diverging scales – for example, it goes from 0 to negative and from 0 to positive values–. If you want, you can create your own palette. You can find some resources for that <a href="https://colors.madscience.design/here">here</a>, <a href="http://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3">here</a>, <a href="https://vis4.net/palettes/#/9|s|00429d,96ffea,ffffe0|ffffe0,ff005e,93003a|1|1">here</a>, and <a href="https://carto.com/carto-colors/">here</a>. Please double check that your palette is color blind friendly. You can use <a href="https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en">this chrome app</a> to test it.</p>
 
       <img class="small" src="img/10-map-color-scale.png" />
 
@@ -256,20 +281,6 @@
       <p>Once that the map is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL – it usually looks nicer in the 'Normal size.'</p>
 
     </div>
-
-    <div class="new-section">
-      <div class="sep"></div>
-      <h4>References</h4>
-      <p><strong>1.</strong> Garbage in, garbage out. A nice looking graphic won't save lousy data.</p>
-      <p><strong>2.</strong> Keep it consistent. Things that are the same should look the same.</p>
-      <p><strong>3.</strong> Everybody loves maps, but not every dataset involving states or counties needs to be a map.</p>
-      <p><strong>4.</strong> Colors are great, but too many colors can be overwhelming and can make your graphic hard to read. Keep your palettes simple. Use color to stress what it's important.</p>
-      <p><strong>5.</strong> Sketch by hand before using any software. Think about what data you have in your dataset (time, geography, multiple variables...).</p>
-      <p><strong>6.</strong> You don't need to put everything in one graphic. Sometimes, you need more than one graphic to explain something.</p>
-      <p><strong>7.</strong> Learn how to use graphics. Don't choose your graphic because of their asthetics. Firt, think about what do you want your audience to learn from that graphic and what chart fits better with your data.</p>
-
-    </div>
-
 
   </div>
 
