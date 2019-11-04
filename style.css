@@ -77,33 +77,42 @@ section#portfolio {
   margin-bottom: 50px;
   font-size: 20px;
   line-height: 1.6;
+  max-width: 96%;
 }
 
 .example {
-  max-width: 320px;
+  max-width: 340px;
   margin-bottom: 20px;
 }
 
 .example img {
   max-width: 100%;
   border: 1px solid #E8E8E8;
+  margin-top: 6px;
 }
 
 div.tools {
-  margin-bottom: 5px;
+  margin: 3px 0px;
+  line-height: 1.9;
 }
 
 span.r, span.ai, span.d3, span.excel, span.data, span.rep, span.tab {
-  font-size: 14px;
+  font-size: 13.5px;
   padding: 2px 5px;
   background-color: rgba(189,201,199,0.5);
+}
+
+span.job {
+  color: #E05056;
+  text-transform: uppercase;
+  font-size: 17px;
 }
 
 #exampleBlock p {
   font-size: 15px;
   text-align: left;
   margin-top: 2px;
-
+  margin-left: 0px;
 }
 
 #exampleBlock a, a:active, a:visited {
@@ -179,7 +188,7 @@ a:hover#lnkMail {
 
   section#portfolio {
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 700px;
     margin-top: 35px;
   }
 
@@ -195,16 +204,13 @@ a:hover#lnkMail {
   .example {
     display: inline-block;
     width: 300px;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
   }
 
   #scroll h4 {
     margin-top: 120px;
-
   }
-
-
 }
 
 @media only screen and (min-width: 861px) {
@@ -230,19 +236,19 @@ a:hover#lnkMail {
 
   section#portfolio {
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 860px;
     margin-top: 35px;
   }
 
+
   .example {
     display: inline-block;
-    width: 250px;
+    max-width: 400px;
+    margin-bottom: 0px;
   }
 
-  .example:nth-child(3n+2) {
-    margin-left: 4.5%;
-    margin-right: 4.5%;
-
+  .example:nth-child(2n+1) {
+    margin-right: 3%;
   }
 
   #exampleBlock a, a:active, a:visited {
@@ -266,6 +272,4 @@ a:hover#lnkMail {
     padding-left: 0px;
     padding-top: 15%;
   }
-
-
 }
