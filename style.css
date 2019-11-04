@@ -243,12 +243,12 @@ a:hover#lnkMail {
 
   .example {
     display: inline-block;
-    max-width: 400px;
+    max-width: 405px;
     margin-bottom: 0px;
   }
 
   .example:nth-child(2n+1) {
-    margin-right: 3%;
+    margin-right: 4%;
   }
 
   #exampleBlock a, a:active, a:visited {
