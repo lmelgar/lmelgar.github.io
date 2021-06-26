@@ -72,6 +72,24 @@
     max-width: 350px;
   }
 
+  img.x-small {
+    max-width: 330px;
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
+  .fancy > .more-fancy {
+    display: inline-block;
+    max-width: 350px;
+    vertical-align: text-top;
+  }
+
+  img.fancy-is {
+    max-width: 340px;
+    display: inline-block;
+    vertical-align: text-top;
+  }
+
   .sep {
     width: 150px;
     border-bottom: 7px tomato solid;
@@ -84,6 +102,8 @@
 <body>
   <div id="container">
     <h1>Charting with Datawrapper</h1>
+
+    <p> <span class="intro">Luis Melgar</span> (<a href="http://lmelgar.me">www.lmelgar.me</a>)</p>
 
     <div class="new-section">
       <div class="sep"></div>
@@ -102,7 +122,7 @@
 
       <p class="extra">-Good colection of gradients, <a href="https://carto.com/carto-colors/">from Carto</a></p>
 
-      <p class="extra">-More <a href="https://flatuicolors.com/"></a>palettes</p>
+      <p class="extra">-More <a href="https://flatuicolors.com/">palettes</a></p>
 
       <p class="extra">-Tools to test if your data visualization is colorblind friendly <a href="https://colororacle.org/">Color Oracle</a> and <a href="https://michelf.ca/projects/sim-daltonism/">Sim Daltonims</a> [only for Mac]</p>
 
@@ -133,7 +153,13 @@
       <li><a href="https://www.nationalgeographic.com/pages/graphics/the-maps-and-graphics-of-2020-s-events-and-discoveries">National Geographic's best of 2020</a></li>
       <li><a href="https://docs.google.com/spreadsheets/d/1TlFa6pFM1kVlS5lfcJox0IkB0TTLqZI-O6eIOeNR0pw/edit#gid=0">Malofiej Awards</a></li>
       <li><a href="https://flowingdata.com/">Flowing Data</a></li>
+      <li><a href="https://www.visualisingdata.com/">Visualising Data</a></li>
+      <li><a href="http://www.thefunctionalart.com/">The Functional Art</a></li>
       <li><a href="https://blog.datawrapper.de/">Datawrapper's blog</a></li>
+      <li><a href="https://www.youtube.com/playlist?list=PLbNzG9U26J3JvOKGLRsGLs4BwYQzzT2LR">Datawrapper's YouTube channel</a></li>
+      <li>The Functional Art, by Alberto Cairo (Book)</li>
+      <li>The Wall Street Journal Guide to Information Graphics, by Dona M. Wong (Book)</li>
+      <li>W.E.B. Du Bois's Data Portraits, by W.E.B. Du Bois (Book)</li>
     </div>
 
     <div class="new-section">
@@ -165,7 +191,7 @@
       <img src="img/1-create-new.png" />
 
       <p><strong>3.</strong> Click on + New Chart.</p>
-      <img src="img/1-create-new.png" />
+      <img src="img/2-create-new.png" />
 
       <p><strong>4.</strong> Add the data that you want to use in the graphic.</p>
       <img src="img/2-copy-data.png" />
@@ -176,48 +202,60 @@
       <p><strong>5.</strong> Once that you have uploaded the data, click on the 'Proceed' button. You will see how your data looks like and what type of data is stored in each column –number, date, text...–</p>
       <img src="img/4-what-data.png" />
 
-      <p><em>[You can skip this part, if you want]</em> You can select each column by clicking on its header. It allows you to change the type of data, see the distribution in the data, run calculations...</p>
+      <p><em>[You can skip this part, if you want]</em> You can select each column by clicking on its header. It allows you to change the type of data, see the distribution in the data and run calculations</p>
       <img src="img/5-how-it-looks-like.png" />
 
-      <p>After you click, proceed, by default you'll see a line chart.</p>
+      <p>After you click, 'Proceed,' by default you'll see a line chart.</p>
       <img src="img/6-what-you-get.png" />
 
-      <p>But you can change that in the menu on the left side of the screen. In this case, we're using a line chart.</p>
+      <p>You can change that in the menu on the left side of the screen.</p>
 
       <img class="small" src="img/7-chart-type.png" />
 
       <p>Let's give some style to this graphic. Click on the next tab in the menu 'Refine.'</p>
 
-      <img class="small" src="img/8-navigation.png" />
+      <img class="x-small" src="img/8-navigation.png" />
+      <img class="x-small" src="img/9-navigation.png" />
 
       <p><strong>6.</strong> Modify the aesthetics of your graphic. You can change the colors, the axes, the position of the labels...</p>
 
       <p>I'm changing:</p>
       <p class="extra">-The ticks in the x axis</p>
       <p class="extra">-The ticks in the y axis</p>
-      <p class="extra">In this case, I want them to highlight El Salvador and Guatemala. I going to pick two colors for those two countries. For the others I will use the same gray.</p>
+      <p class="extra">-I want to highlight El Salvador and Guatemala. I going to pick two colors for those two countries. For the others I will use gray.</p>
 
-      <img src="img/9-refine.png" />
+      <img class="small" src="img/10-refine.png" />
 
-      <p class="extra">You can also change the width, or dashes, add symbols</p>
+      <p class="extra">-You can also change the width, or dashes, add symbols</p>
 
-      <img class="small" src="img/9-refine-b.png" />
+      <img class="small" src="img/11-refine.png" />
 
-      <p><strong>7.</strong> Once that you're happy with the outcome, click on 'Proceed' so you can add the finishing touches to the graphic. In the 'Annotate' tab you can include a title, a subtitle, source, a link to where the data comes from...</p>
+      <img src="img/11-refine-b.png" />
 
-      <img src="img/11-annotate.png" />
+      <p><strong>7.</strong> Once that you're happy with the outcome, click on 'Proceed' so you can add the finishing touches to the graphic. In the 'Annotate' tab you can include a title, a subtitle, the source, a link to where the data comes from...</p>
 
-      <p>But in this case, because it's a line chart, you can also annotate the chart.</p>
+      <img class="small" src="img/12-annotate.png" />
+
+      <p>But in this case, because it's a line chart, you can also add annotations to the chart. Click on '+ Add text annotation.'</p>
+
+      <div class="fancy">
+        <img class="fancy-is" src="img/13-annotate.png" />
+        <div class="more-fancy">
+          <img src="img/13-annotate-b.png" />
+          <img src="img/14-annotate.jpeg" />
+        </div>
+      </div>
+
 
       <p>Done with the annotation? Click 'Proceed.' It will take you to the 'Layout' tab. Decide if you want the data to be downloadable. Click on 'Proceed.'</p>
 
       <p><strong>7.</strong> Now let's publish the graphic. Click on 'Publish chart'.</p>
 
-      <img class="small" src="img/12-publish.png" />
+      <img class="small" src="img/14-publish.png" />
 
       <p>Once that the graphic is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL – it usually looks nicer in the 'Normal size.'</p>
 
-      <img src="img/13-published.png" />
+      <img class="small" src="img/15-published.png" />
     </div>
 
     <div class="new-section" id="map">
@@ -228,47 +266,40 @@
 
       <br />
 
-      <iframe title="Workers that walk to their work" aria-label="USA counties (2018) choropleth map" id="datawrapper-chart-u81hj" src="//datawrapper.dwcdn.net/u81hj/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="631"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>
+      <iframe title="Average annual unemployment, 2020" aria-label="Map" id="datawrapper-chart-CdYtY" src="https://datawrapper.dwcdn.net/CdYtY/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="483"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
 
       <br />
 
-      <p><strong>1.</strong> Download the data from <a href="http://www.lmelgar.me/nahj-2019/data/public_transportation.csv" download>here</a>. [IMPORTANT: Don' try to open it with Excel or Numbers]</p>
+      <p><strong>1.</strong> Download the data from <a href="http://www.lmelgar.me/nahj-2021/data/USDA_unemployment.csv" download>here</a>. [IMPORTANT: Don' try to open it with Excel or Numbers]</p>
       <p><strong>2.</strong> Go to Datawrapper and click on 'New map,' in the menu in the top. Then select the 'Choropleth map' option.</p>
       <img src="img/1-map-create-new.png" />
 
-      <p><strong>3.</strong> In the search area, type 'USA' and selec USA counties (2018).</p>
+      <p><strong>3.</strong> In the search area, type 'USA' and select USA counties (2018). Click on 'Proceed.'</p>
       <img src="img/2-map-select-base.png" />
 
-      <p>By default, Datawrapper offers maps at the Census tract level. What if you want to create a map of a metro area –Miami-Ft. Lauderdale-Palm Beach, for example–, or by zip code, you could upload your own map base. In some cases local governments made those maps public.</p>
-
-      <p>The county level map should look like this.</p>
-      <img src="img/3-map-add-data.png" />
-
-      <p>If it does, you can import the data. For that, you could copy and paste it in the box, or you could click on the button that says 'Import your dataset.' Let's go with this second option.</p>
-
-      <p>This process should be pretty straight forward, you just need to follow the instructions on the pop-up menu.</p>
+      <p>Import the data. For that, you could copy and paste it in the box, or you could click on the button that says 'Import your dataset,' at the bottom. Let's go with this second option.</p>
 
       <img class="small" src="img/4-map-start-import.png" />
 
-      <p><strong>4.</strong> The next step allows you to copy and paste the data or upload a file. My recommendation in this case – upload a file. [TECHNICAL EXPLANATION: To create a county level map, Datawrapper relies on a code known as FIP, a five number code that identify each county. In some states, like Alabama, FIPS codes starts with 0 –Autauga County, Alab., FIP is 01001-. Excel and Google spreadsheet read those codes as numbers, and numbers don't start with zero. If you want to know how deal with that when working with Excel or Google spreadsheet, ping me.]</p>
+      <p>This process should be pretty straight forward, you just need to follow the instructions on the pop-up menu.</p>
 
-      <img class="small" src="img/5-map-upload-data.png" />
+      <img class="x-small" src="img/5-map-start-import.png" />
+      <img class="x-small" src="img/6-map-start-import.png" />
 
-      <p><strong>5.</strong> Select the column with the FIPS. In this dataset is the third one.</p>
+      <p><strong>4.</strong> The next step allows you to copy and paste the data or upload a file. My recommendation in this case is: upload the file. [TECHNICAL EXPLANATION: To create a county level map, Datawrapper relies on a code known as FIPS, a five number code that identifies each county. In some states, like Alabama, FIPS codes starts with 0 –Autauga County, Alab., FIPS is 01001-. By default, Excel and Google sheets read those codes as numbers, and numbers don't start with zero. If you want to know how to deal with that when working with Excel or Google spreadsheet, ping me.]</p>
 
-      <img class="small" src="img/6-map-where-are-fips.png" />
+      <p><strong>5.</strong> Select the column with the FIPS. In this dataset is the first one.</p>
 
-      <p><strong>6.</strong> Now select the column that including the values that you want to visualize. This dataset contains data on wokers over 16 that commute to their work walking or using public transportation. It includes the total number for each category, but also the percentage.</p>
+      <img class="small" src="img/7-map-start-import.png" />
 
-      <p>The last column is share of workers that walk to their works. I'm using that one.</p>
-
-      <img class="small" src="img/7-map-data-values.png" />
+      <p><strong>6.</strong> Now select the column that including the values that you want to visualize. This dataset contains data on 2019 and 2020 average unemployment rate. Let's select the 2020.</p>
 
       <p>Your data should look something like this.</p>
 
-      <img class="small" src="img/8-map-how-it-looks.png" />
+      <img src="img/9-map-start-import.png" />
 
-      <p>It it does, click on 'Proceed.'</p>
+      <p>If it does, click on 'Proceed.'</p>
 
       <p>The next interface is very similar to the one that we saw while we were creating the line chart. The first thing that you'll see is the 'Refine' tab. It allows you to modify the aesthetics of the graphic. I want my map to look like this.</p>
 
@@ -276,40 +307,35 @@
 
       <p><strong>7.</strong> In the 'Select palette' section, you can select the range of colors you want to use to visualize the data. It offers palettes for continous scales –go in order, positive or negative– or diverging scales –for example, it goes from 0 to negative and from 0 to positive values–. If you want, you can create your own palette.</p>
 
-      <img class="small" src="img/10-map-color-scale.png" />
+      <img class="small" src="img/10-map-palette.png" />
 
-      <p><strong>8.</strong> You'll also need to select how you want the data to be distributed. You can do that by clicking on 'Stops'. In this case I'm using quintiles, that will equally distribute all the values in five categories.</p>
+      <p><strong>8.</strong> You'll also need to select how you want the data to be distributed. For that, choose if you want to use a linear scale or steps and how you want to break down the scale (how to bucket the data). You can use the default options or customize your own buckets.</p>
 
-      <p>You could also change the column that you want to visualize, if you want to.</p>
+      <img class="small" src="img/11-map-palette.png" />
 
-      <p><strong>9.</strong> Now let's create a tooltip, so when someone mouse over a county can read the name of the county and the value we're visualizing. Click on 'Customize tooltips.'</p>
+      <p><strong>9.</strong> When ready, click 'Proceed.' In the 'Annotate' tab, let's add a title, subtitles, notes...</p>
 
-      <p>A new window will pop up. You have some blank areas and some blue blocks with the name of the variables inside of it. If you click on the blue blocks, it will add that variable to the tooltip. But you can also include some text. And if you know some html, you can bold text, include breaks...</p>
+      <p>City labels can be added, if wanted, or if necessary.</p>
 
-      <img class="small" src="img/12-map-tooltip.png" />
+      <img class="x-small" src="img/12-labels.png" alt="">
+      <img class="x-small" src="img/13-labels.png" alt="">
 
-      <p><strong>10.</strong> Quite probably now the key - that help to understand what the colors represent - quite probably looks weird, like every color seem to have the same shade. If that's the case, let's fix it.</p>
+      <p><strong>10.</strong> Now let's create a tooltip, so when someone mouse over a county can read the name of the county and the value we're visualizing. Click on 'Customize tooltips.'</p>
 
-      <p>Unselect 'Automatically generate legend.' You'll see a new menu like this.</p>
+      <img class="small" src="img/14-map-tooltip.png" />
 
-      <img class="small" src="img/11-map-key.png" />
+      <p>A menu will expand. You have some blank areas and some blue blocks with the name of the variables inside of it. If you click on the blue blocks, the will be added to the tooltip. But you can also include some text. And if you know some html, you can bold text, include breaks...</p>
 
-      <p>In each of the blank field under the 'Caption' title, you can add  the value that will act as a breaking point in the scale.</p>
+      <img class="x-small" src="img/15-tooltips.png" />
+      <img class="x-small" src="img/16-tooltip.png" />
 
-      <p>If you want to add more values, just click on 'Add legend row.' If you want to delete a row, click on the 'X' in the right side of each row.</p>
+      <p>Done with the annotations? Click 'Proceed.' It will take you to the 'Layout' tab. Let's skip this one, click 'Proceed.'</p>
 
-      <p><strong>9.</strong> Click on 'Proceed.' The next tab is 'Annotate.' As we did with the barchart, we're giving the map a title, a byline and a description.</p>
+      <p><strong>11.</strong> Let's publish the map. Click on 'Publish chart'.</p>
 
-      <img class="small" src="img/13-map-annotation.png" />
+      <img src="img/16-publish-map.png" />
 
-      <p>Done with the annotation? Click 'Proceed.' It will take you to the 'Design' tab. Let's skip this one, click 'Proceed again'.</p>
-
-      <p><strong>10.</strong> Let's publish the map. Click on 'Publish chart'.</p>
-
-      <img class="small" src="img/12-publish.png" />
-
-      <p>Once that the map is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL – it usually looks nicer in the 'Normal size.'</p>
-
+      <p>Once that the map is published, you can use the embed code and add it to your website. If you want to share the result, you can also copy the URL –it usually looks nicer in the 'Normal size.'</p>
     </div>
 
   </div>
