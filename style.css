@@ -49,15 +49,17 @@ header {
 
 #name h2 {
   font-weight: 700;
-  font-size: 50px;
   font-family: "Arvo", serif;
+  font-size: 60px;
   text-transform: uppercase;
+  line-height: 1.1;
 }
 
 #job h3 {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 20px;
   margin: 0;
+  margin-top: 12px;
 }
 
 #scroll h4 {
