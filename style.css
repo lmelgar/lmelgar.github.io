@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500');
 @import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@100;300;400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
 * {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.5;
   font-family: 'Roboto Mono', monospace;
-}
-
-h2 {
-  font-size: 29px;
+  box-sizing: border-box;
 }
 
 h3 {
@@ -18,19 +19,20 @@ h3 {
 }
 
 header {
-  background-color: #E05056; /*red*/
-  height: 80vh;
+  background-color: rgba(217, 217, 217, 0.3);
+  height: 100vh;
   max-width: 100%;
-  color: white;
-  padding-top: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
 }
 
 #welcome, #name, #job, #scroll {
-  margin: 0 auto;
   max-width: 93%;
   text-align: left;
   padding-left: 20px;
+  margin: 0;
 }
 
 #scroll {
@@ -47,11 +49,15 @@ header {
 
 #name h2 {
   font-weight: 700;
-  font-family: "Koh Santepheap", serif;
+  font-size: 50px;
+  font-family: "Arvo", serif;
+  text-transform: uppercase;
 }
 
 #job h3 {
-  font-weight: 100;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 0;
 }
 
 #scroll h4 {
@@ -78,7 +84,6 @@ div#skills {
 }
 
 #portfolio p {
-  text-align: center;
   font-weight: 300;
   margin-top: 7px;
   margin-bottom: 20px;
@@ -112,14 +117,14 @@ div.tools {
 span.r, span.ai, span.d3, span.excel, span.data, span.rep, span.tab {
   font-size: 13.5px;
   padding: 2px 5px;
-  background-color: rgba(189,201,199,0.5);
+  background-color: rgba(217, 217, 217, 0.5);
 }
 
 span.job {
-  color: #E05056;
+  color: indigo;
   text-transform: uppercase;
   font-size: 17px;
-  font-family: "Koh Santepheap", serif;
+  font-family: "Arvo", serif;
 }
 
 #exampleBlock p {
@@ -142,16 +147,6 @@ span.job {
   color: white;
 }
 
-section#out {
-  margin-top: 35px;
-  height: 70vh;
-  text-align: left;
-  padding-left: 20px;
-  background-color: #E05056;
-  color: white;
-  padding-top: 70%;
-}
-
 section#out h2 {
   font-weight: 300;
 }
@@ -161,16 +156,9 @@ section#out h4 {
   font-size: 20px;
 }
 
-section#out a, a:active {
-  color: white;
-}
-
-section#out a:hover {
-  color: black;
-}
-
 div#socialMedia {
-  margin: 10px 0px;
+  margin: 10px auto;
+  max-width: 50%;
 }
 
 #lnkMail {
@@ -179,41 +167,24 @@ div#socialMedia {
 }
 
 a#linkMail, a:active#lnkMail, a:visited#lnkMail {
-  font-size: 16px !important;
   text-underline-position: auto;
 }
 
-a:hover#lnkMail {
-  font-size: 16px !important;
-  background-color: white;
-  color: black !important;
-}
-
-
 @media only screen and (min-width: 560px) and (max-width: 860px) {
-  header {
-    padding-top: 20%;
-  }
 
   #welcome, #name, #job {
-    max-width: 70%;
-    text-align: center;
-    padding-left: 0px;
+    margin: 0;
+    padding-left: 10%;
+  }
+
+  #name h2 {
+    font-size: 70px;
   }
 
   main#portfolio {
     margin: 0 auto;
     max-width: 700px;
     margin-top: 35px;
-  }
-
-  section#out {
-    height: 85vh;
-    margin: 0 auto;
-    max-width: 100%;
-    margin-top: 35px;
-    text-align: center;
-    padding-left: 0px;
   }
 
   #scroll h4 {
@@ -227,14 +198,17 @@ a:hover#lnkMail {
     font-size: 90px !important;
   }
 
-  header {
-    padding-top: 17%;
+  #welcome, #name, #job {
+    padding-left: 10%;
+    width: 100%;
   }
 
-  #welcome, #name, #job {
-    max-width: 70%;
-    text-align: center;
-    padding-left: 0px;
+  #name h2 {
+    font-size: 70px;
+  }
+
+  #job h3 {
+    max-width: 60%;
   }
 
   #scroll h4 {
@@ -265,14 +239,14 @@ a:hover#lnkMail {
     color: #000;
     text-underline-position: under;
   }
-
-  #exampleBlock a:hover {
+  
+  a:hover {
     font-size: 15px;
     background-color: #000;
     color: white;
   }
 
-  section#out {
+  /* section#out {
     height: 75vh;
     margin: 0 auto;
     max-width: 100%;
@@ -280,5 +254,5 @@ a:hover#lnkMail {
     text-align: center;
     padding-left: 0px;
     padding-top: 15%;
-  }
+  } */
 }
